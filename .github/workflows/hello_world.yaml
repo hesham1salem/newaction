@@ -18,7 +18,7 @@ jobs:
                echo "Hello, World!"
                echo "This is a multi-line string"
     second:
-        runs-on: macos-latest
+        runs-on: windows-latest
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
