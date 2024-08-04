@@ -7,7 +7,7 @@ on:
 
 jobs:
     first:
-        runs-on: ubuntu-20.04
+        runs-on: mac
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
                echo "Hello, World!"
                echo "This is a multi-line string"
     second:
-        runs-on: ubuntu-20.04
+        runs-on: windows
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
