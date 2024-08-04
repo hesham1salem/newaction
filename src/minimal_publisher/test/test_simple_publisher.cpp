@@ -38,6 +38,8 @@ TEST_F(TestSimplePublisher, TestPublishMessage)
     // EXPECT_TRUE(received_);
     //EXPECT_EQ(received_message_, "Hello, ROS 2!");
     EXPECT_EQ("Hello, ROS 2!", "Hello, ROS 2!");
+    EXPECT_EQ("different", "Hello, ROS 2!");
+
 
 }
 
