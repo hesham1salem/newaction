@@ -17,4 +17,15 @@ jobs:
               run: |
                echo "Hello, World!"
                echo "This is a multi-line string"
+    second:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            - name: Run a one-liner
+              run: echo "Hello, World!"
+            - name: Run another one-liner
+              run: |
+               echo "Hello, World!"
+               echo "This is a multi-line string"
             
