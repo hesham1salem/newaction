@@ -12,7 +12,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v2
             - name: Run a one-liner
-              run: echo "Hello, World!"
+              run: exit -1
             - name: Run another one-liner
               run: |
                echo "Hello, World!"
