@@ -7,25 +7,16 @@ on:
 
 jobs:
     first:
-        runs-on: macos-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
-            - name: Run a one-liner
-              run: exit -6
-            - name: Run another one-liner
-              run: |
-               echo "Hello, World!"
-               echo "This is a multi-line string"
-    second:
-        runs-on: windows-latest
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v2
-            - name: Run a one-liner
-              run: echo "Hello, World!"
-            - name: Run another one-liner
-              run: |
-               echo "Hello, World!"
-               echo "This is a multi-line string"
+            - uses: ros-tooling/setup-ros@v0.7
+              with:
+                  required-ros-distributions: humble
+            - uses: ros-tooling/action-ros-ci@v0.3
+              with:
+                  package-name: examples_rclcpp_minimal_publisher
+                  target-ros2-distro: humble
+   
             
