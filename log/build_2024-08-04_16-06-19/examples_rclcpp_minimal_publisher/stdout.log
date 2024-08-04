@@ -1,0 +1,5 @@
+[ 50%] Built target gtest
+[ 50%] Built target gtest_main
+[ 75%] Built target publisher_member_function
+[ 87%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m

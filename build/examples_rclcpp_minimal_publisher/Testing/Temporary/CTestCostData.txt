@@ -1,0 +1,2 @@
+examples_rclcpp_minimal_publisher_test_simple_publisher 1 0.0793328
+---

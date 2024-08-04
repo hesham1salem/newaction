@@ -1,0 +1,69 @@
+[0.038s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[0.083s] -- The C compiler identification is GNU 8.4.0
+[0.137s] -- The CXX compiler identification is GNU 9.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.305s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.341s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.346s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.347s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.347s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.347s]   the cmake_policy command to set the policy and suppress this warning.
+[0.347s] 
+[0.347s] Call Stack (most recent call first):
+[0.347s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.347s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.347s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.347s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.347s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.347s]   CMakeLists.txt:14 (find_package)
+[0.347s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.347s] [0m
+[0.362s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.362s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.564s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.640s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.781s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.115s] -- Looking for pthread_create in pthreads
+[1.154s] -- Looking for pthread_create in pthreads - not found
+[1.154s] -- Looking for pthread_create in pthread
+[1.200s] -- Looking for pthread_create in pthread - found
+[1.202s] -- Found Threads: TRUE  
+[1.571s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.577s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.578s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.578s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.578s]   CMake.
+[1.578s] 
+[1.578s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.578s]   CMake that the project does not need compatibility with older versions.
+[1.578s] 
+[1.578s] [0m
+[1.579s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.579s]   add_executable cannot create target "test_simple_publisher" because another
+[1.579s]   target with the same name already exists.  The existing target is an
+[1.579s]   executable created in source directory
+[1.579s]   "/home/hesham/Pictures/newaction/src/minimal_publisher".  See documentation
+[1.579s]   for policy CMP0002 for more details.
+[1.579s] Call Stack (most recent call first):
+[1.579s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.579s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.579s]   CMakeLists.txt:26 (ament_add_gtest)
+[1.579s] 
+[1.579s] [0m
+[1.616s] -- Configuring incomplete, errors occurred!
+[1.624s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher

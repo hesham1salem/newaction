@@ -15,48 +15,30 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(publisher_lambda lambda.cpp)
-ament_target_dependencies(publisher_lambda rclcpp std_msgs)
-
 add_executable(publisher_member_function member_function.cpp)
 ament_target_dependencies(publisher_member_function rclcpp std_msgs)
 
-add_executable(publisher_member_function_with_type_adapter member_function_with_type_adapter.cpp)
-ament_target_dependencies(publisher_member_function_with_type_adapter rclcpp std_msgs)
 
-add_executable(publisher_member_function_with_unique_network_flow_endpoints member_function_with_unique_network_flow_endpoints.cpp)
-ament_target_dependencies(publisher_member_function_with_unique_network_flow_endpoints rclcpp std_msgs)
 
-add_executable(publisher_wait_for_all_acked member_function_with_wait_for_all_acked.cpp)
-ament_target_dependencies(publisher_wait_for_all_acked rclcpp std_msgs)
-
-add_executable(publisher_not_composable not_composable.cpp)
-ament_target_dependencies(publisher_not_composable rclcpp std_msgs)
 
 install(TARGETS
-  publisher_lambda
+  
   publisher_member_function
-  publisher_member_function_with_type_adapter
-  publisher_member_function_with_unique_network_flow_endpoints
-  publisher_wait_for_all_acked
-  publisher_not_composable
+
   DESTINATION lib/${PROJECT_NAME}
 )
 
 if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
-if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
-  ament_add_gtest(${PROJECT_NAME}_tutorial_test test/tutorial_test.cpp)
-  target_include_directories(${PROJECT_NAME}_tutorial_test PUBLIC
+  ament_add_gtest(${PROJECT_NAME}_test_simple_publisher test/test_simple_publisher.cpp)
+  target_include_directories(${PROJECT_NAME}_test_simple_publisher PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
   )
-  ament_target_dependencies(${PROJECT_NAME}_tutorial_test
+  ament_target_dependencies(${PROJECT_NAME}_test_simple_publisher
     std_msgs
+    rclcpp
   )
-  target_link_libraries(${PROJECT_NAME}_tutorial_test name_of_local_library)
+ #target_link_libraries(${PROJECT_NAME}_test_simple_publisher publisher_member_function)
 endif()
 ament_package()

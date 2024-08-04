@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.060s] [ 25%] Built target gtest_main
+[0.060s] [ 50%] Built target gtest
+[0.060s] [ 75%] Built target publisher_member_function
+[0.074s] [ 87%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[1.161s] [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.162s] [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:42:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.162s]    42 | int main([01;35m[Kint argc[m[K, char **argv)
+[1.162s]       |          [01;35m[K~~~~^~~~[m[K
+[1.162s] [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:42:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.162s]    42 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[1.162s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[3.095s] [100%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m
+[3.252s] /usr/bin/ld: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o: in function `void __gnu_cxx::new_allocator<MinimalPublisher>::construct<MinimalPublisher>(MinimalPublisher*)':
+[3.253s] test_simple_publisher.cpp:(.text._ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `MinimalPublisher::MinimalPublisher()'
+[3.253s] collect2: error: ld returned 1 exit status
+[3.253s] make[2]: *** [CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/build.make:146: examples_rclcpp_minimal_publisher_test_simple_publisher] Error 1
+[3.254s] make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/all] Error 2
+[3.254s] make: *** [Makefile:146: all] Error 2
+[3.255s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20

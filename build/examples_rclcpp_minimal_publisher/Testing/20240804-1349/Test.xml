@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240804-1349-Experimental"
+	Name="heshamwakeb"
+	Generator="ctest-3.27.0"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="heshamwakeb"
+	OSRelease="5.15.0-117-generic"
+	OSVersion="#127~20.04.1-Ubuntu SMP Thu Jul 11 15:36:12 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15672"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="602.405"
+	>
+	<Testing>
+		<StartDateTime>Aug 04 16:49 EEST</StartDateTime>
+		<StartTestTime>1722779355</StartTestTime>
+		<TestList>
+			<Test>./examples_rclcpp_minimal_publisher_test_simple_publisher</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>examples_rclcpp_minimal_publisher_test_simple_publisher</Name>
+			<Path>.</Path>
+			<FullName>./examples_rclcpp_minimal_publisher_test_simple_publisher</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0793328</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':
+ - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestSimplePublisher
+[ RUN      ] TestSimplePublisher.TestPublishMessage
+[       OK ] TestSimplePublisher.TestPublishMessage (30 ms)
+[----------] 1 test from TestSimplePublisher (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (30 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+-- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Aug 04 16:49 EEST</EndDateTime>
+		<EndTestTime>1722779356</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

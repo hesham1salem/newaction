@@ -1,0 +1,46 @@
+[0.086s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': AMENT_PREFIX_PATH=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.091s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.092s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.092s]    Site: heshamwakeb
+[0.092s]    Build name: (empty)
+[0.092s]  Add coverage exclude regular expressions.
+[0.092s] Create new tag: 20240804-1349 - Experimental
+[0.092s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.092s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.092s] Test project /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.092s] Constructing a list of tests
+[0.092s] Done constructing a list of tests
+[0.092s] Updating test list for fixtures
+[0.092s] Added 0 tests to meet fixture requirements
+[0.092s] Checking test dependency graph...
+[0.092s] Checking test dependency graph end
+[0.092s] test 1
+[0.092s]     Start 1: examples_rclcpp_minimal_publisher_test_simple_publisher
+[0.092s] 
+[0.092s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"
+[0.092s] 1: Working Directory: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.093s] 1: Test timeout computed to be: 60
+[0.131s] 1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':
+[0.131s] 1:  - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml
+[0.135s] 1: [==========] Running 1 test from 1 test case.
+[0.135s] 1: [----------] Global test environment set-up.
+[0.135s] 1: [----------] 1 test from TestSimplePublisher
+[0.135s] 1: [ RUN      ] TestSimplePublisher.TestPublishMessage
+[0.165s] 1: [       OK ] TestSimplePublisher.TestPublishMessage (30 ms)
+[0.165s] 1: [----------] 1 test from TestSimplePublisher (30 ms total)
+[0.165s] 1: 
+[0.165s] 1: [----------] Global test environment tear-down
+[0.165s] 1: [==========] 1 test from 1 test case ran. (30 ms total)
+[0.165s] 1: [  PASSED  ] 1 test.
+[0.166s] 1: -- run_test.py: return code 0
+[0.166s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+[0.166s] 1: -- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+[0.172s] 1/1 Test #1: examples_rclcpp_minimal_publisher_test_simple_publisher ...   Passed    0.08 sec
+[0.172s] 
+[0.172s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.172s] 
+[0.172s] Label Time Summary:
+[0.172s] gtest    =   0.08 sec*proc (1 test)
+[0.172s] 
+[0.172s] Total Test time (real) =   0.08 sec
+[0.198s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': AMENT_PREFIX_PATH=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,129 @@
+[3.215s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.215s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f32062532e0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f32062532e0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3206259040>)
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hesham/Pictures/newaction'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extension 'ignore'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extension 'ignore_ament_install'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extensions ['colcon_pkg']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extension 'colcon_pkg'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extensions ['colcon_meta']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extension 'colcon_meta'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extensions ['ros']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_publisher) by extension 'ros'
+[3.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minimal_publisher' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_publisher'
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/foxy
+[3.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.453s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'examples_rclcpp_minimal_publisher' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding examples_rclcpp_minimal_publisher
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_args' from command line to 'None'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_target' from command line to 'None'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[3.464s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.464s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher', 'merge_install': False, 'path': '/home/hesham/Pictures/newaction/src/minimal_publisher', 'symlink_install': False, 'test_result_base': None}
+[3.474s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hesham/Pictures/newaction/src/minimal_publisher' with build type 'ament_cmake'
+[3.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hesham/Pictures/newaction/src/minimal_publisher'
+[3.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[5.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[5.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_publisher)
+[5.465s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher' for CMake module files
+[5.466s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher' for CMake config files
+[5.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_publisher', 'cmake_prefix_path')
+[5.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.ps1'
+[5.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.dsv'
+[5.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/hook/cmake_prefix_path.sh'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/bin'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib/pkgconfig/examples_rclcpp_minimal_publisher.pc'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib/python3.8/site-packages'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/bin'
+[5.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.ps1'
+[5.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv'
+[5.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.sh'
+[5.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.bash'
+[5.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.zsh'
+[5.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/colcon-core/packages/examples_rclcpp_minimal_publisher)
+[5.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.499s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.512s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.526s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hesham/Pictures/newaction/install/local_setup.ps1'
+[5.537s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hesham/Pictures/newaction/install/_local_setup_util_ps1.py'
+[5.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hesham/Pictures/newaction/install/setup.ps1'
+[5.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hesham/Pictures/newaction/install/local_setup.sh'
+[5.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hesham/Pictures/newaction/install/_local_setup_util_sh.py'
+[5.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hesham/Pictures/newaction/install/setup.sh'
+[5.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hesham/Pictures/newaction/install/local_setup.bash'
+[5.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hesham/Pictures/newaction/install/setup.bash'
+[5.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hesham/Pictures/newaction/install/local_setup.zsh'
+[5.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hesham/Pictures/newaction/install/setup.zsh'

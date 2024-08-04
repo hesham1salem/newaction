@@ -1,0 +1,32 @@
+[0.038s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[0.054s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.057s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.058s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.058s]   the cmake_policy command to set the policy and suppress this warning.
+[0.058s] 
+[0.058s] Call Stack (most recent call first):
+[0.058s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.058s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.058s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.058s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.058s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.058s]   CMakeLists.txt:14 (find_package)
+[0.058s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.058s] [0m
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.258s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.334s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.007s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.010s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.010s]   ament_target_dependencies() the first argument must be a valid target name
+[1.010s] Call Stack (most recent call first):
+[1.010s]   CMakeLists.txt:25 (ament_target_dependencies)
+[1.010s] 
+[1.010s] [0m
+[1.010s] -- Configuring incomplete, errors occurred!
+[1.017s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher

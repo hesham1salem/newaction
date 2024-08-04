@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':
+ - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml
+
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestSimplePublisher
+[ RUN      ] TestSimplePublisher.TestPublishMessage
+[       OK ] TestSimplePublisher.TestPublishMessage (30 ms)
+[----------] 1 test from TestSimplePublisher (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (30 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+-- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'

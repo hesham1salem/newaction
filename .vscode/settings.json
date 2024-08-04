@@ -61,5 +61,10 @@
   ],
   "python.analysis.extraPaths": [
     "/opt/ros/foxy/lib/python3.8/site-packages"
-  ]
+  ],
+  "files.associations": {
+    "*.urdf": "xml",
+    "chrono": "cpp",
+    "functional": "cpp"
+  }
 }

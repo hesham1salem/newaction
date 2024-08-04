@@ -1,0 +1,31 @@
+[0.037s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.062s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.062s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.062s]   the cmake_policy command to set the policy and suppress this warning.
+[0.062s] 
+[0.062s] Call Stack (most recent call first):
+[0.062s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.062s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.062s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.062s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.062s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.062s]   CMakeLists.txt:15 (find_package)
+[0.062s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.062s] [0m
+[0.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.266s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.034s] [31mCMake Error at CMakeLists.txt:24 (target_link_libraries):
+[1.034s]   Cannot specify link libraries for target "publisher_member_function" which
+[1.034s]   is not built by this project.
+[1.035s] 
+[1.035s] [0m
+[1.035s] -- Configuring incomplete, errors occurred!
+[1.040s] make: *** [Makefile:336: cmake_check_build_system] Error 1
+[1.043s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
