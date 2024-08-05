@@ -1,22 +1,42 @@
-name: build
+name: test and Deploy
 
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+      - master
 
 jobs:
-    first:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v2
-            - uses: ros-tooling/setup-ros@v0.7
-              with:
-                  required-ros-distributions: humble
-            - uses: ros-tooling/action-ros-ci@v0.3
-              with:
-                  package-name: examples_rclcpp_minimal_publisher
-                  target-ros2-distro: humble
-   
-            
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Setup ROS
+        uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: humble
+          
+      - name: Run ROS CI
+        uses: ros-tooling/action-ros-ci@v0.3
+        with:
+          package-name: minimal_publisher
+          target-ros2-distro: humble
+
+  deploy:
+    needs: test
+    runs-on: heshamwakeb
+    steps:
+      - name: Checkout the latest code
+        uses: actions/checkout@v2
+        
+      - name: Build again
+        run: colcon build
+        
+      - name: Stop current node
+        run: killall publisher_member_function || true  # Ignore errors if the process is not running
+        
+      - name: Rerun the node
+        run: |
+          source install/setup.bash
+          ros2 run minimal_publisher publisher_member_function
