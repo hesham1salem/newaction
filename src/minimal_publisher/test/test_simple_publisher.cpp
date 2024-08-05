@@ -35,7 +35,7 @@ TEST_F(TestSimplePublisher, TestPublishMessage)
         rclcpp::spin_some(node);
         rclcpp::spin_some(node_);
     EXPECT_TRUE(received_);
-    EXPECT_EQ(received_message_, "Hello, ROS 1!");
+    EXPECT_EQ(received_message_, "Hello, ROS 2!");
 }
 
 
