@@ -39,4 +39,4 @@ jobs:
       - name: Rerun the node
         run: |
           source install/setup.bash
-          ros2 run minimal_publisher publisher_member_function
+          ros2 run minimal_publisher publisher_member_function&
