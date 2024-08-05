@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:5 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hesham/Pictures/newaction/build/minimal_publisher
+[ 10%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 60%] [32m[1mLinking CXX executable publisher_member_function[0m
+[ 60%] Built target publisher_member_function
+[ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 70%] Built target gtest
+[ 80%] [32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/test/test_simple_publisher.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable minimal_publisher_test[0m
+[100%] Built target minimal_publisher_test
+-- Install configuration: ""
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function
+-- Set runtime path of "/home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function" to ""
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/package_run_dependencies/minimal_publisher
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/parent_prefix_path/minimal_publisher
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.sh
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.dsv
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.bash
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.sh
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.zsh
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.dsv
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.dsv
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/packages/minimal_publisher
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig.cmake
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig-version.cmake
+-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.xml

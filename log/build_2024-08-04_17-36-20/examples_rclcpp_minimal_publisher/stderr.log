@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o: in function `void __gnu_cxx::new_allocator<MinimalPublisher>::construct<MinimalPublisher>(MinimalPublisher*)':
+test_simple_publisher.cpp:(.text._ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `MinimalPublisher::MinimalPublisher()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/build.make:162: examples_rclcpp_minimal_publisher_test_simple_publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,77 @@
+[ 44%] Built target gtest_main
+[ 44%] Built target gtest
+[ 55%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/member_function.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:60[m[K,
+                 from [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:1[m[K:
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-port.h:690:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  690 | # define GTEST_AMBIGUOUS_ELSE_BLOCKER_ [01;31m[Kswitch[m[K (0) case 0: default:  // NOLINT
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1366:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_AMBIGUOUS_ELSE_BLOCKER_[m[K’
+ 1366 |   [01;36m[KGTEST_AMBIGUOUS_ELSE_BLOCKER_[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1937:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+ 1937 |   [01;36m[KGTEST_TEST_BOOLEAN_[m[K(condition, #condition, false, true, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_TRUE[m[K’
+   40 |     [01;36m[KEXPECT_TRUE[m[K(received_);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:60[m[K,
+                 from [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:1[m[K:
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1370:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1370 |   [01;31m[Kelse[m[K \
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1937:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+ 1937 |   [01;36m[KGTEST_TEST_BOOLEAN_[m[K(condition, #condition, false, true, \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_TRUE[m[K’
+   40 |     [01;36m[KEXPECT_TRUE[m[K(received_);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-internal.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:60[m[K,
+                 from [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:1[m[K:
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/internal/gtest-port.h:690:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  690 | # define GTEST_AMBIGUOUS_ELSE_BLOCKER_ [01;31m[Kswitch[m[K (0) case 0: default:  // NOLINT
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:75:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_AMBIGUOUS_ELSE_BLOCKER_[m[K’
+   75 |   [01;36m[KGTEST_AMBIGUOUS_ELSE_BLOCKER_[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:146:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_[m[K’
+  146 |   [01;36m[KGTEST_ASSERT_[m[K(pred_format(#v1, #v2, v1, v2), \
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:41:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+   41 |     [01;36m[KEXPECT_EQ[m[K(received_message_, "Hello, ROS 1!");
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+                 from [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:1[m[K:
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:78:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+   78 |   [01;31m[Kelse[m[K \
+      |   [01;31m[K^~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:146:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_[m[K’
+  146 |   [01;36m[KGTEST_ASSERT_[m[K(pred_format(#v1, #v2, v1, v2), \
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+  161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+ 1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:41:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+   41 |     [01;36m[KEXPECT_EQ[m[K(received_message_, "Hello, ROS 1!");
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   42 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[ 88%] [32m[1mLinking CXX executable publisher_member_function[0m
+[ 88%] Built target publisher_member_function
+make[2]: *** [CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/build.make:76: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

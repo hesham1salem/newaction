@@ -1,0 +1,163 @@
+[0.052s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.053s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.054s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.054s]    Site: heshamwakeb
+[0.054s]    Build name: (empty)
+[0.054s]  Add coverage exclude regular expressions.
+[0.054s] Create new tag: 20240805-0721 - Experimental
+[0.054s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.054s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.054s] Test project /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.054s] Constructing a list of tests
+[0.054s] Done constructing a list of tests
+[0.054s] Updating test list for fixtures
+[0.054s] Added 0 tests to meet fixture requirements
+[0.054s] Checking test dependency graph...
+[0.054s] Checking test dependency graph end
+[0.055s] test 1
+[0.055s]     Start 1: examples_rclcpp_minimal_publisher_test_simple_publisher
+[0.055s] 
+[0.055s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"
+[0.055s] 1: Working Directory: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.055s] 1: Test timeout computed to be: 60
+[0.086s] 1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':
+[0.086s] 1:  - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml
+[0.088s] 1: [==========] Running 1 test from 1 test case.
+[0.089s] 1: [----------] Global test environment set-up.
+[0.089s] 1: [----------] 1 test from TestSimplePublisher
+[0.089s] 1: [ RUN      ] TestSimplePublisher.TestPublishMessage
+[0.105s] 1: here
+[0.608s] 1: [INFO] [1722842494.731706125] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[1.116s] 1: [INFO] [1722842495.240277802] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[1.614s] 1: [INFO] [1722842495.738904745] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[2.115s] 1: [INFO] [1722842496.239225878] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[2.607s] 1: [INFO] [1722842496.731097299] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[3.109s] 1: [INFO] [1722842497.233248037] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[3.609s] 1: [INFO] [1722842497.733139537] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[4.106s] 1: [INFO] [1722842498.231179375] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[4.613s] 1: [INFO] [1722842498.738041109] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[5.111s] 1: [INFO] [1722842499.235459009] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[5.609s] 1: [INFO] [1722842499.733284965] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[6.109s] 1: [INFO] [1722842500.233061412] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[6.611s] 1: [INFO] [1722842500.734990204] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[7.113s] 1: [INFO] [1722842501.236506125] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[7.615s] 1: [INFO] [1722842501.738927730] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[8.107s] 1: [INFO] [1722842502.230586741] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[8.608s] 1: [INFO] [1722842502.732394566] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[9.112s] 1: [INFO] [1722842503.236336968] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[9.616s] 1: [INFO] [1722842503.739940833] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[10.109s] 1: [INFO] [1722842504.232829592] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[10.614s] 1: [INFO] [1722842504.737548994] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[11.107s] 1: [INFO] [1722842505.231393478] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[11.613s] 1: [INFO] [1722842505.737028458] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[12.108s] 1: [INFO] [1722842506.232087544] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[12.613s] 1: [INFO] [1722842506.737199529] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[13.115s] 1: [INFO] [1722842507.238989136] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[13.607s] 1: [INFO] [1722842507.731897842] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[14.113s] 1: [INFO] [1722842508.237421032] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[14.607s] 1: [INFO] [1722842508.731191283] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[15.113s] 1: [INFO] [1722842509.236882693] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[15.609s] 1: [INFO] [1722842509.733023772] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[16.114s] 1: [INFO] [1722842510.238023443] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[16.616s] 1: [INFO] [1722842510.740135571] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[17.109s] 1: [INFO] [1722842511.232549363] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[17.611s] 1: [INFO] [1722842511.734808895] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[18.114s] 1: [INFO] [1722842512.237759570] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[18.616s] 1: [INFO] [1722842512.739988765] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[19.107s] 1: [INFO] [1722842513.231882441] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[19.610s] 1: [INFO] [1722842513.733941834] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[20.113s] 1: [INFO] [1722842514.236541262] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[20.615s] 1: [INFO] [1722842514.739100685] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[21.107s] 1: [INFO] [1722842515.231365260] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[21.610s] 1: [INFO] [1722842515.733834651] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[22.112s] 1: [INFO] [1722842516.235851935] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[22.615s] 1: [INFO] [1722842516.738957110] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[23.107s] 1: [INFO] [1722842517.231526264] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[23.610s] 1: [INFO] [1722842517.734403691] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[24.113s] 1: [INFO] [1722842518.237552916] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[24.614s] 1: [INFO] [1722842518.738068272] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[25.106s] 1: [INFO] [1722842519.231144571] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[25.609s] 1: [INFO] [1722842519.733644260] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[26.112s] 1: [INFO] [1722842520.236008252] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[26.614s] 1: [INFO] [1722842520.738133373] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[27.106s] 1: [INFO] [1722842521.230625776] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[27.608s] 1: [INFO] [1722842521.732359451] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[28.111s] 1: [INFO] [1722842522.234664195] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[28.614s] 1: [INFO] [1722842522.737468233] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[29.116s] 1: [INFO] [1722842523.240021345] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[29.608s] 1: [INFO] [1722842523.732322218] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[30.110s] 1: [INFO] [1722842524.234811184] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[30.614s] 1: [INFO] [1722842524.738076824] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[31.106s] 1: [INFO] [1722842525.230345613] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[31.609s] 1: [INFO] [1722842525.732964540] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[32.112s] 1: [INFO] [1722842526.236112894] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[32.616s] 1: [INFO] [1722842526.739785035] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[33.110s] 1: [INFO] [1722842527.234096375] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[33.616s] 1: [INFO] [1722842527.739825104] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[34.112s] 1: [INFO] [1722842528.235695323] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[34.615s] 1: [INFO] [1722842528.738862591] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[35.111s] 1: [INFO] [1722842529.234866775] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[35.607s] 1: [INFO] [1722842529.730119924] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[36.113s] 1: [INFO] [1722842530.236764095] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[36.608s] 1: [INFO] [1722842530.731643391] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[37.114s] 1: [INFO] [1722842531.237879577] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[37.611s] 1: [INFO] [1722842531.734353302] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[38.106s] 1: [INFO] [1722842532.230143532] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[38.611s] 1: [INFO] [1722842532.735647471] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[39.106s] 1: [INFO] [1722842533.230255242] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[39.608s] 1: [INFO] [1722842533.732781822] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[40.112s] 1: [INFO] [1722842534.235466319] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[40.614s] 1: [INFO] [1722842534.737756290] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[41.116s] 1: [INFO] [1722842535.239874548] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[41.608s] 1: [INFO] [1722842535.731779772] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[42.111s] 1: [INFO] [1722842536.234614197] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[42.611s] 1: [INFO] [1722842536.735101577] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[43.110s] 1: [INFO] [1722842537.235124841] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[43.612s] 1: [INFO] [1722842537.736355254] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[44.115s] 1: [INFO] [1722842538.239645819] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[44.614s] 1: [INFO] [1722842538.739375772] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[45.113s] 1: [INFO] [1722842539.237375520] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[45.611s] 1: [INFO] [1722842539.735867736] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[46.110s] 1: [INFO] [1722842540.234356659] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[46.607s] 1: [INFO] [1722842540.731975395] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[47.115s] 1: [INFO] [1722842541.240018514] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[47.614s] 1: [INFO] [1722842541.738861930] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[48.114s] 1: [INFO] [1722842542.238633078] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[48.614s] 1: [INFO] [1722842542.738186311] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[49.116s] 1: [INFO] [1722842543.239904445] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[49.610s] 1: [INFO] [1722842543.734079514] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[50.114s] 1: [INFO] [1722842544.238253816] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[50.615s] 1: [INFO] [1722842544.739618252] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[51.111s] 1: [INFO] [1722842545.235800106] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[51.608s] 1: [INFO] [1722842545.732418098] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[52.115s] 1: [INFO] [1722842546.239366891] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[52.613s] 1: [INFO] [1722842546.737381806] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[53.110s] 1: [INFO] [1722842547.234631885] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[53.611s] 1: [INFO] [1722842547.734713352] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[54.108s] 1: [INFO] [1722842548.231375495] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[54.611s] 1: [INFO] [1722842548.736237893] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[55.111s] 1: [INFO] [1722842549.235729838] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[55.607s] 1: [INFO] [1722842549.731789549] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[56.114s] 1: [INFO] [1722842550.238387155] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[56.610s] 1: [INFO] [1722842550.734718385] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[57.106s] 1: [INFO] [1722842551.231109947] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[57.613s] 1: [INFO] [1722842551.737786218] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[58.114s] 1: [INFO] [1722842552.238718937] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[58.614s] 1: [INFO] [1722842552.738615189] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[59.114s] 1: [INFO] [1722842553.238293341] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[59.607s] 1: [INFO] [1722842553.730313934] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[60.068s] 1/1 Test #1: examples_rclcpp_minimal_publisher_test_simple_publisher ...***Timeout  60.01 sec
+[60.068s] 
+[60.068s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[60.068s] 
+[60.068s] Label Time Summary:
+[60.068s] gtest    =  60.01 sec*proc (1 test)
+[60.068s] 
+[60.068s] Total Test time (real) =  60.01 sec
+[60.068s] 
+[60.068s] The following tests FAILED:
+[60.068s] 	[0;31m  1 - examples_rclcpp_minimal_publisher_test_simple_publisher (Timeout)[0;0m
+[60.088s] Errors while running CTest
+[60.088s] Output from these tests are in: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/Testing/Temporary/LastTest.log
+[60.089s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[60.090s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '8': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

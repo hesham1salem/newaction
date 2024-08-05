@@ -1,0 +1,9 @@
+[0.038s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.064s] [ 50%] [32m[1mLinking CXX executable publisher_member_function[0m
+[0.108s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.108s] (.text+0x24): undefined reference to `main'
+[0.108s] collect2: error: ld returned 1 exit status
+[0.109s] make[2]: *** [CMakeFiles/publisher_member_function.dir/build.make:144: publisher_member_function] Error 1
+[0.109s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_member_function.dir/all] Error 2
+[0.110s] make: *** [Makefile:146: all] Error 2
+[0.112s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20

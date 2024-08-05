@@ -1,0 +1,4 @@
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void TestSimplePublisher_TestPublishMessage_Test::TestBody()[m[K’:
+[01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:35:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   35 |     auto [01;35m[Kstart[m[K = std::chrono::steady_clock::now();
+      |          [01;35m[K^~~~~[m[K

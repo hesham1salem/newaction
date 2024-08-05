@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (minimal_publisher) JobQueued: {'identifier': 'minimal_publisher', 'dependencies': OrderedDict()}
+[0.000125] (minimal_publisher) JobStarted: {'identifier': 'minimal_publisher'}
+[0.057867] (minimal_publisher) JobProgress: {'identifier': 'minimal_publisher', 'progress': 'cmake'}
+[0.057938] (minimal_publisher) Command: {'cmd': ['/usr/local/bin/cmake', '/home/hesham/Pictures/newaction/src/minimal_publisher', '-DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/minimal_publisher'], 'cwd': '/home/hesham/Pictures/newaction/build/minimal_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('LC_TIME', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR', '/home/hesham/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '4782'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/hesham'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/165/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hesham/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/165/usr/share/code/code'), ('MANAGERPID', '4368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7651'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hesham/Pictures/newaction/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hesham'), ('JOURNAL_STREAM', '8:94283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hesham/.local/bin:/opt/ros/foxy/bin:/home/hesham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hesham/mybin:/home/hesham/mybin'), ('SESSION_MANAGER', 'local/heshamwakeb:@/tmp/.ICE-unix/4819,unix/heshamwakeb:/tmp/.ICE-unix/4819'), ('GTK_EXE_PREFIX', '/snap/code/165/usr'), ('INVOCATION_ID', '870023f6f2174cb086272c3bc62445d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/165/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68b983684d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-4Ke4GvdMiB0I/agent.4706'), ('GSETTINGS_SCHEMA_DIR', '/home/hesham/snap/code/165/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/Pictures/newaction/build/minimal_publisher'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hesham/snap/code/165/.local/share:/home/hesham/snap/code/165:/snap/code/165/usr/share:/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.099557] (-) TimerEvent: {}
+[0.103583] (minimal_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 8.4.0\n'}
+[0.158600] (minimal_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.182309] (minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199754] (-) TimerEvent: {}
+[0.232451] (minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263550] (minimal_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.264142] (minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265396] (minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.278067] (minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299905] (-) TimerEvent: {}
+[0.341582] (minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400007] (-) TimerEvent: {}
+[0.410698] (minimal_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.411662] (minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.414754] (minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.420659] (minimal_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.432061] (minimal_publisher) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.432311] (minimal_publisher) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.432419] (minimal_publisher) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.432502] (minimal_publisher) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.432581] (minimal_publisher) StderrLine: {'line': b'\n'}
+[0.432658] (minimal_publisher) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.432735] (minimal_publisher) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.432811] (minimal_publisher) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.432889] (minimal_publisher) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.432964] (minimal_publisher) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.433040] (minimal_publisher) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.433114] (minimal_publisher) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[0.433189] (minimal_publisher) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.433263] (minimal_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[0.454108] (minimal_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.454318] (minimal_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500209] (-) TimerEvent: {}
+[0.600535] (-) TimerEvent: {}
+[0.688337] (minimal_publisher) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700609] (-) TimerEvent: {}
+[0.800854] (-) TimerEvent: {}
+[0.835207] (minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.860835] (minimal_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.900990] (-) TimerEvent: {}
+[0.989348] (minimal_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.001137] (-) TimerEvent: {}
+[1.071311] (minimal_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101228] (-) TimerEvent: {}
+[1.201528] (-) TimerEvent: {}
+[1.301802] (-) TimerEvent: {}
+[1.361553] (minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401942] (-) TimerEvent: {}
+[1.502291] (-) TimerEvent: {}
+[1.602533] (-) TimerEvent: {}
+[1.632761] (minimal_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.639949] (minimal_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.643190] (minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702596] (-) TimerEvent: {}
+[1.704973] (minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.705474] (minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.757349] (minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.757643] (minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.802692] (-) TimerEvent: {}
+[1.806177] (minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.809866] (minimal_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902776] (-) TimerEvent: {}
+[2.003021] (-) TimerEvent: {}
+[2.103285] (-) TimerEvent: {}
+[2.203554] (-) TimerEvent: {}
+[2.303819] (-) TimerEvent: {}
+[2.404083] (-) TimerEvent: {}
+[2.504339] (-) TimerEvent: {}
+[2.601958] (minimal_publisher) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[2.604413] (-) TimerEvent: {}
+[2.610892] (minimal_publisher) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.611569] (minimal_publisher) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[2.611681] (minimal_publisher) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[2.611744] (minimal_publisher) StderrLine: {'line': b'  CMake.\n'}
+[2.611797] (minimal_publisher) StderrLine: {'line': b'\n'}
+[2.611848] (minimal_publisher) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[2.611898] (minimal_publisher) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[2.611948] (minimal_publisher) StderrLine: {'line': b'\n'}
+[2.611998] (minimal_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[2.615320] (minimal_publisher) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.678018] (minimal_publisher) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.704507] (-) TimerEvent: {}
+[2.736444] (minimal_publisher) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.776241] (minimal_publisher) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.779692] (minimal_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/hesham/Pictures/newaction/build/minimal_publisher\n'}
+[2.787134] (minimal_publisher) CommandEnded: {'returncode': 0}
+[2.787898] (minimal_publisher) JobProgress: {'identifier': 'minimal_publisher', 'progress': 'build'}
+[2.788645] (minimal_publisher) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/hesham/Pictures/newaction/build/minimal_publisher', '--', '-j20', '-l20'], 'cwd': '/home/hesham/Pictures/newaction/build/minimal_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('LC_TIME', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR', '/home/hesham/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '4782'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/hesham'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/165/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hesham/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/165/usr/share/code/code'), ('MANAGERPID', '4368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7651'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hesham/Pictures/newaction/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hesham'), ('JOURNAL_STREAM', '8:94283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hesham/.local/bin:/opt/ros/foxy/bin:/home/hesham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hesham/mybin:/home/hesham/mybin'), ('SESSION_MANAGER', 'local/heshamwakeb:@/tmp/.ICE-unix/4819,unix/heshamwakeb:/tmp/.ICE-unix/4819'), ('GTK_EXE_PREFIX', '/snap/code/165/usr'), ('INVOCATION_ID', '870023f6f2174cb086272c3bc62445d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/165/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68b983684d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-4Ke4GvdMiB0I/agent.4706'), ('GSETTINGS_SCHEMA_DIR', '/home/hesham/snap/code/165/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/Pictures/newaction/build/minimal_publisher'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hesham/snap/code/165/.local/share:/home/hesham/snap/code/165:/snap/code/165/usr/share:/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy')]), 'shell': False}
+[2.804627] (-) TimerEvent: {}
+[2.811534] (minimal_publisher) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o\x1b[0m\n'}
+[2.811826] (minimal_publisher) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[2.811923] (minimal_publisher) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.811982] (minimal_publisher) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.904708] (-) TimerEvent: {}
+[3.005116] (-) TimerEvent: {}
+[3.105392] (-) TimerEvent: {}
+[3.205695] (-) TimerEvent: {}
+[3.212215] (minimal_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.258556] (minimal_publisher) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[3.305802] (-) TimerEvent: {}
+[3.406144] (-) TimerEvent: {}
+[3.506538] (-) TimerEvent: {}
+[3.606946] (-) TimerEvent: {}
+[3.707329] (-) TimerEvent: {}
+[3.807736] (-) TimerEvent: {}
+[3.908115] (-) TimerEvent: {}
+[4.008488] (-) TimerEvent: {}
+[4.108847] (-) TimerEvent: {}
+[4.209214] (-) TimerEvent: {}
+[4.309555] (-) TimerEvent: {}
+[4.409816] (-) TimerEvent: {}
+[4.510189] (-) TimerEvent: {}
+[4.512212] (minimal_publisher) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable publisher_member_function\x1b[0m\n'}
+[4.606186] (minimal_publisher) StdoutLine: {'line': b'[ 60%] Built target publisher_member_function\n'}
+[4.610259] (-) TimerEvent: {}
+[4.710507] (-) TimerEvent: {}
+[4.750194] (minimal_publisher) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.808303] (minimal_publisher) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[4.810575] (-) TimerEvent: {}
+[4.816346] (minimal_publisher) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/test/test_simple_publisher.cpp.o\x1b[0m\n'}
+[4.816564] (minimal_publisher) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/member_function.cpp.o\x1b[0m\n'}
+[4.910680] (-) TimerEvent: {}
+[5.010973] (-) TimerEvent: {}
+[5.111266] (-) TimerEvent: {}
+[5.211551] (-) TimerEvent: {}
+[5.311946] (-) TimerEvent: {}
+[5.412220] (-) TimerEvent: {}
+[5.512646] (-) TimerEvent: {}
+[5.612944] (-) TimerEvent: {}
+[5.713310] (-) TimerEvent: {}
+[5.813684] (-) TimerEvent: {}
+[5.914041] (-) TimerEvent: {}
+[6.014343] (-) TimerEvent: {}
+[6.114661] (-) TimerEvent: {}
+[6.214950] (-) TimerEvent: {}
+[6.315223] (-) TimerEvent: {}
+[6.415624] (-) TimerEvent: {}
+[6.516020] (-) TimerEvent: {}
+[6.616338] (-) TimerEvent: {}
+[6.716607] (-) TimerEvent: {}
+[6.817012] (-) TimerEvent: {}
+[6.917280] (-) TimerEvent: {}
+[7.017576] (-) TimerEvent: {}
+[7.117900] (-) TimerEvent: {}
+[7.218258] (-) TimerEvent: {}
+[7.318604] (-) TimerEvent: {}
+[7.418885] (-) TimerEvent: {}
+[7.519144] (-) TimerEvent: {}
+[7.619437] (-) TimerEvent: {}
+[7.712433] (minimal_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_publisher_test\x1b[0m\n'}
+[7.719578] (-) TimerEvent: {}
+[7.819829] (-) TimerEvent: {}
+[7.908370] (minimal_publisher) StdoutLine: {'line': b'[100%] Built target minimal_publisher_test\n'}
+[7.918242] (minimal_publisher) CommandEnded: {'returncode': 0}
+[7.920519] (-) TimerEvent: {}
+[7.934157] (minimal_publisher) JobProgress: {'identifier': 'minimal_publisher', 'progress': 'install'}
+[7.940288] (minimal_publisher) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/hesham/Pictures/newaction/build/minimal_publisher'], 'cwd': '/home/hesham/Pictures/newaction/build/minimal_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('LC_TIME', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR', '/home/hesham/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '4782'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/hesham'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/165/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hesham/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/165/usr/share/code/code'), ('MANAGERPID', '4368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7651'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hesham/Pictures/newaction/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hesham'), ('JOURNAL_STREAM', '8:94283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hesham/.local/bin:/opt/ros/foxy/bin:/home/hesham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hesham/mybin:/home/hesham/mybin'), ('SESSION_MANAGER', 'local/heshamwakeb:@/tmp/.ICE-unix/4819,unix/heshamwakeb:/tmp/.ICE-unix/4819'), ('GTK_EXE_PREFIX', '/snap/code/165/usr'), ('INVOCATION_ID', '870023f6f2174cb086272c3bc62445d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/165/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68b983684d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-4Ke4GvdMiB0I/agent.4706'), ('GSETTINGS_SCHEMA_DIR', '/home/hesham/snap/code/165/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/Pictures/newaction/build/minimal_publisher'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hesham/snap/code/165/.local/share:/home/hesham/snap/code/165:/snap/code/165/usr/share:/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/minimal_publisher:/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy')]), 'shell': False}
+[7.943455] (minimal_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.943669] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function\n'}
+[7.944257] (minimal_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function" to ""\n'}
+[7.944468] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/package_run_dependencies/minimal_publisher\n'}
+[7.944666] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/parent_prefix_path/minimal_publisher\n'}
+[7.944783] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.sh\n'}
+[7.944914] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.dsv\n'}
+[7.945017] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.sh\n'}
+[7.945207] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.dsv\n'}
+[7.945293] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.bash\n'}
+[7.945349] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.sh\n'}
+[7.945406] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.zsh\n'}
+[7.945493] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.dsv\n'}
+[7.945573] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.dsv\n'}
+[7.945791] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/packages/minimal_publisher\n'}
+[7.945908] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig.cmake\n'}
+[7.945988] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig-version.cmake\n'}
+[7.946040] (minimal_publisher) StdoutLine: {'line': b'-- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.xml\n'}
+[7.947475] (minimal_publisher) CommandEnded: {'returncode': 0}
+[8.021453] (-) TimerEvent: {}
+[8.121836] (-) TimerEvent: {}
+[8.145995] (minimal_publisher) JobEnded: {'identifier': 'minimal_publisher', 'rc': 0}
+[8.146534] (-) EventReactorShutdown: {}

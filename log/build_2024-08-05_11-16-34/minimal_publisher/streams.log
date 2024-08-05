@@ -1,0 +1,67 @@
+[0.114s] Invoking command in '/home/hesham/Pictures/newaction/build/minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/minimal_publisher -- -j20 -l20
+[0.139s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.141s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.141s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.141s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.141s]   the cmake_policy command to set the policy and suppress this warning.
+[0.141s] 
+[0.141s] Call Stack (most recent call first):
+[0.141s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.141s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.142s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.142s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.142s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.142s]   CMakeLists.txt:5 (find_package)
+[0.142s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.142s] [0m
+[0.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.347s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.157s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.159s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.160s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.160s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.160s]   CMake.
+[1.160s] 
+[1.160s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.160s]   CMake that the project does not need compatibility with older versions.
+[1.160s] 
+[1.160s] [0m
+[1.205s] -- Configuring done (1.1s)
+[1.226s] -- Generating done (0.0s)
+[1.228s] -- Build files have been written to: /home/hesham/Pictures/newaction/build/minimal_publisher
+[1.249s] [ 40%] Built target gtest
+[1.249s] [ 40%] Built target gtest_main
+[1.254s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o[0m
+[1.254s] [ 60%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.261s] [ 70%] [32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/test/test_simple_publisher.cpp.o[0m
+[1.262s] [ 80%] [32mBuilding CXX object CMakeFiles/minimal_publisher_test.dir/member_function.cpp.o[0m
+[2.898s] [ 90%] [32m[1mLinking CXX executable publisher_member_function[0m
+[2.991s] [ 90%] Built target publisher_member_function
+[4.169s] [100%] [32m[1mLinking CXX executable minimal_publisher_test[0m
+[4.373s] [100%] Built target minimal_publisher_test
+[4.378s] Invoked command in '/home/hesham/Pictures/newaction/build/minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/minimal_publisher -- -j20 -l20
+[4.401s] Invoking command in '/home/hesham/Pictures/newaction/build/minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/minimal_publisher
+[4.404s] -- Install configuration: ""
+[4.404s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function
+[4.405s] -- Set runtime path of "/home/hesham/Pictures/newaction/install/minimal_publisher/lib/minimal_publisher/publisher_member_function" to ""
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/package_run_dependencies/minimal_publisher
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/parent_prefix_path/minimal_publisher
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.sh
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/ament_prefix_path.dsv
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.sh
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/environment/path.dsv
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.bash
+[4.405s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.sh
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.zsh
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/local_setup.dsv
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.dsv
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/ament_index/resource_index/packages/minimal_publisher
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig.cmake
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/cmake/minimal_publisherConfig-version.cmake
+[4.406s] -- Installing: /home/hesham/Pictures/newaction/install/minimal_publisher/share/minimal_publisher/package.xml
+[4.408s] Invoked command in '/home/hesham/Pictures/newaction/build/minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/minimal_publisher

@@ -1,0 +1,4 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 66%] Built target publisher_member_function
+[ 77%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m

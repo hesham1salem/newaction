@@ -1,0 +1,3 @@
+minimal_publisher_test 0 0
+---
+minimal_publisher_test

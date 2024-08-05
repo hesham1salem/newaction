@@ -1,0 +1,33 @@
+[0.053s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.075s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.078s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.078s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.078s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.078s]   the cmake_policy command to set the policy and suppress this warning.
+[0.078s] 
+[0.078s] Call Stack (most recent call first):
+[0.078s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.078s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.078s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.078s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.078s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.078s]   CMakeLists.txt:14 (find_package)
+[0.078s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.078s] [0m
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.281s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.676s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.022s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.022s]   ament_target_dependencies() the passed package name
+[1.022s]   'publisher_member_function_lib' was not found before
+[1.022s] Call Stack (most recent call first):
+[1.022s]   CMakeLists.txt:20 (ament_target_dependencies)
+[1.022s] 
+[1.022s] [0m
+[1.022s] -- Configuring incomplete, errors occurred!
+[1.028s] make: *** [Makefile:363: cmake_check_build_system] Error 1
+[1.031s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20

@@ -1,0 +1,100 @@
+[0.058s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[0.102s] -- The C compiler identification is GNU 8.4.0
+[0.156s] -- The CXX compiler identification is GNU 9.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.369s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.369s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.370s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.370s]   the cmake_policy command to set the policy and suppress this warning.
+[0.370s] 
+[0.370s] Call Stack (most recent call first):
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.370s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.370s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.370s]   CMakeLists.txt:14 (find_package)
+[0.370s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.370s] [0m
+[0.386s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.665s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.792s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.118s] -- Looking for pthread_create in pthreads
+[1.159s] -- Looking for pthread_create in pthreads - not found
+[1.159s] -- Looking for pthread_create in pthread
+[1.207s] -- Looking for pthread_create in pthread - found
+[1.209s] -- Found Threads: TRUE  
+[1.607s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.610s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.612s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.612s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.612s]   CMake.
+[1.612s] 
+[1.613s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.613s]   CMake that the project does not need compatibility with older versions.
+[1.613s] 
+[1.613s] [0m
+[1.615s] -- Check if compiler accepts -pthread
+[1.665s] -- Check if compiler accepts -pthread - yes
+[1.706s] -- Configuring done (1.6s)
+[1.726s] -- Generating done (0.0s)
+[1.728s] -- Build files have been written to: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[1.737s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[1.738s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[1.758s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o[0m
+[1.759s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.759s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.364s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.406s] [ 44%] Built target gtest_main
+[3.524s] [ 55%] [32m[1mLinking CXX executable publisher_member_function[0m
+[3.619s] [ 55%] Built target publisher_member_function
+[3.735s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.791s] [ 66%] Built target gtest
+[3.799s] [ 77%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[3.799s] [ 88%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/member_function.cpp.o[0m
+[4.896s] [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void TestSimplePublisher_TestPublishMessage_Test::TestBody()[m[K’:
+[4.896s] [01m[K/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:35:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[4.896s]    35 |     auto [01;35m[Kstart[m[K = std::chrono::steady_clock::now();
+[4.896s]       |          [01;35m[K^~~~~[m[K
+[6.895s] [100%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m
+[7.089s] [100%] Built target examples_rclcpp_minimal_publisher_test_simple_publisher
+[7.094s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[7.116s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[7.118s] -- Install configuration: ""
+[7.118s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[7.119s] -- Set runtime path of "/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[7.119s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[7.120s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[7.120s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[7.120s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[7.120s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[7.120s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[7.121s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher

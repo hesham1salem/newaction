@@ -1,0 +1,37 @@
+[0.057s] Invoking command in '/home/hesham/Pictures/newaction/build/minimal_publisher': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.060s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.060s] Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.060s]    Site: heshamwakeb
+[0.060s]    Build name: (empty)
+[0.060s]  Add coverage exclude regular expressions.
+[0.060s] Create new tag: 20240805-0816 - Experimental
+[0.060s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.060s] Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.060s] Test project /home/hesham/Pictures/newaction/build/minimal_publisher
+[0.060s] Constructing a list of tests
+[0.060s] Done constructing a list of tests
+[0.061s] Updating test list for fixtures
+[0.061s] Added 0 tests to meet fixture requirements
+[0.061s] Checking test dependency graph...
+[0.061s] Checking test dependency graph end
+[0.061s] test 1
+[0.061s]     Start 1: minimal_publisher_test
+[0.061s] 
+[0.061s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"
+[0.061s] 1: Working Directory: /home/hesham/Pictures/newaction/build/minimal_publisher
+[0.061s] 1/1 Test #1: minimal_publisher_test ...........***Not Run   0.00 sec
+[0.061s] 
+[0.061s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[0.061s] 
+[0.061s] Label Time Summary:
+[0.061s] gtest    =   0.00 sec*proc (1 test)
+[0.061s] 
+[0.061s] Total Test time (real) =   0.00 sec
+[0.061s] 
+[0.061s] The following tests FAILED:
+[0.061s] 	[0;33m  1 - minimal_publisher_test (Not Run)[0;0m
+[0.061s] Unable to find required file: /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test
+[0.080s] Errors while running CTest
+[0.080s] Output from these tests are in: /home/hesham/Pictures/newaction/build/minimal_publisher/Testing/Temporary/LastTest.log
+[0.080s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.082s] Invoked command in '/home/hesham/Pictures/newaction/build/minimal_publisher' returned '8': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

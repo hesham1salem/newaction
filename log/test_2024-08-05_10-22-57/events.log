@@ -1,0 +1,766 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict([('examples_rclcpp_minimal_publisher', '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher')])}
+[0.000154] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.052651] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/local/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hesham'), ('LC_TIME', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR', '/home/hesham/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '4782'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/hesham'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/165/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hesham/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/165/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/165/usr/share/code/code'), ('MANAGERPID', '4368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7651'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hesham/Pictures/newaction/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hesham'), ('JOURNAL_STREAM', '8:94283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hesham'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hesham/.local/bin:/opt/ros/foxy/bin:/home/hesham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hesham/mybin:/home/hesham/mybin'), ('SESSION_MANAGER', 'local/heshamwakeb:@/tmp/.ICE-unix/4819,unix/heshamwakeb:/tmp/.ICE-unix/4819'), ('GTK_EXE_PREFIX', '/snap/code/165/usr'), ('INVOCATION_ID', '870023f6f2174cb086272c3bc62445d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/165/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68b983684d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-4Ke4GvdMiB0I/agent.4706'), ('GSETTINGS_SCHEMA_DIR', '/home/hesham/snap/code/165/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hesham/snap/code/165/.local/share:/home/hesham/snap/code/165:/snap/code/165/usr/share:/usr/share/ubuntu:/home/hesham/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher')]), 'shell': False}
+[0.056668] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.056766] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.056805] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'   Site: heshamwakeb\n'}
+[0.056838] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.056941] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.056995] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Create new tag: 20240805-0722 - Experimental\n'}
+[0.057024] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.057052] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.057089] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Test project /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher\n'}
+[0.057114] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.057500] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.057552] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.057578] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.057604] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.057629] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.057654] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 1\n'}
+[0.057678] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 1: examples_rclcpp_minimal_publisher_test_simple_publisher\n'}
+[0.057703] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[0.057728] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"\n'}
+[0.057760] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Working Directory: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher\n'}
+[0.057787] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.089032] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':\n"}
+[0.089161] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1:  - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml\n'}
+[0.091463] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: [==========] Running 1 test from 1 test case.\n'}
+[0.091533] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.091567] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: [----------] 1 test from TestSimplePublisher\n'}
+[0.091595] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: [ RUN      ] TestSimplePublisher.TestPublishMessage\n'}
+[0.099510] (-) TimerEvent: {}
+[0.099722] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: here\n'}
+[0.199849] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.400960] (-) TimerEvent: {}
+[0.501658] (-) TimerEvent: {}
+[0.600885] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842577.822381261] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[0.601736] (-) TimerEvent: {}
+[0.702145] (-) TimerEvent: {}
+[0.802493] (-) TimerEvent: {}
+[0.902818] (-) TimerEvent: {}
+[1.003148] (-) TimerEvent: {}
+[1.103491] (-) TimerEvent: {}
+[1.109536] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842578.331578408] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[1.203694] (-) TimerEvent: {}
+[1.304028] (-) TimerEvent: {}
+[1.404350] (-) TimerEvent: {}
+[1.504576] (-) TimerEvent: {}
+[1.604902] (-) TimerEvent: {}
+[1.608680] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842578.830692415] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[1.704986] (-) TimerEvent: {}
+[1.805261] (-) TimerEvent: {}
+[1.905579] (-) TimerEvent: {}
+[2.005918] (-) TimerEvent: {}
+[2.106270] (-) TimerEvent: {}
+[2.106789] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842579.328952325] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[2.206471] (-) TimerEvent: {}
+[2.306806] (-) TimerEvent: {}
+[2.407216] (-) TimerEvent: {}
+[2.507884] (-) TimerEvent: {}
+[2.607503] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842579.828933490] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[2.608104] (-) TimerEvent: {}
+[2.708837] (-) TimerEvent: {}
+[2.809662] (-) TimerEvent: {}
+[2.910199] (-) TimerEvent: {}
+[3.010865] (-) TimerEvent: {}
+[3.108815] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842580.330808489] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[3.111136] (-) TimerEvent: {}
+[3.211711] (-) TimerEvent: {}
+[3.312260] (-) TimerEvent: {}
+[3.412698] (-) TimerEvent: {}
+[3.512979] (-) TimerEvent: {}
+[3.608975] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842580.831060342] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[3.613059] (-) TimerEvent: {}
+[3.713325] (-) TimerEvent: {}
+[3.813589] (-) TimerEvent: {}
+[3.914133] (-) TimerEvent: {}
+[4.014751] (-) TimerEvent: {}
+[4.108257] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842581.330078256] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[4.114920] (-) TimerEvent: {}
+[4.215207] (-) TimerEvent: {}
+[4.315561] (-) TimerEvent: {}
+[4.415911] (-) TimerEvent: {}
+[4.516282] (-) TimerEvent: {}
+[4.606872] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842581.828817171] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[4.616361] (-) TimerEvent: {}
+[4.716671] (-) TimerEvent: {}
+[4.816942] (-) TimerEvent: {}
+[4.917215] (-) TimerEvent: {}
+[5.017447] (-) TimerEvent: {}
+[5.105777] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842582.327776912] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[5.117566] (-) TimerEvent: {}
+[5.217890] (-) TimerEvent: {}
+[5.318216] (-) TimerEvent: {}
+[5.418657] (-) TimerEvent: {}
+[5.518989] (-) TimerEvent: {}
+[5.604755] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842582.826740306] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[5.619159] (-) TimerEvent: {}
+[5.719617] (-) TimerEvent: {}
+[5.820388] (-) TimerEvent: {}
+[5.921207] (-) TimerEvent: {}
+[6.021858] (-) TimerEvent: {}
+[6.105746] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842583.327407607] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[6.122092] (-) TimerEvent: {}
+[6.222654] (-) TimerEvent: {}
+[6.323330] (-) TimerEvent: {}
+[6.424065] (-) TimerEvent: {}
+[6.524682] (-) TimerEvent: {}
+[6.608313] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842583.829876859] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[6.624972] (-) TimerEvent: {}
+[6.725721] (-) TimerEvent: {}
+[6.826473] (-) TimerEvent: {}
+[6.927171] (-) TimerEvent: {}
+[7.027924] (-) TimerEvent: {}
+[7.110285] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842584.331937116] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[7.128213] (-) TimerEvent: {}
+[7.228858] (-) TimerEvent: {}
+[7.329233] (-) TimerEvent: {}
+[7.429886] (-) TimerEvent: {}
+[7.530650] (-) TimerEvent: {}
+[7.602425] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842584.823987832] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[7.630812] (-) TimerEvent: {}
+[7.731190] (-) TimerEvent: {}
+[7.831535] (-) TimerEvent: {}
+[7.932126] (-) TimerEvent: {}
+[8.032797] (-) TimerEvent: {}
+[8.103054] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842585.324783701] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[8.132937] (-) TimerEvent: {}
+[8.233352] (-) TimerEvent: {}
+[8.333957] (-) TimerEvent: {}
+[8.434606] (-) TimerEvent: {}
+[8.535140] (-) TimerEvent: {}
+[8.605707] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842585.827839479] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[8.635249] (-) TimerEvent: {}
+[8.735769] (-) TimerEvent: {}
+[8.836503] (-) TimerEvent: {}
+[8.937053] (-) TimerEvent: {}
+[9.037584] (-) TimerEvent: {}
+[9.110355] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842586.331844271] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[9.137896] (-) TimerEvent: {}
+[9.238510] (-) TimerEvent: {}
+[9.338769] (-) TimerEvent: {}
+[9.439181] (-) TimerEvent: {}
+[9.539864] (-) TimerEvent: {}
+[9.601830] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842586.823442210] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[9.639931] (-) TimerEvent: {}
+[9.740151] (-) TimerEvent: {}
+[9.840650] (-) TimerEvent: {}
+[9.941350] (-) TimerEvent: {}
+[10.041776] (-) TimerEvent: {}
+[10.103985] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842587.325739004] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[10.142003] (-) TimerEvent: {}
+[10.242420] (-) TimerEvent: {}
+[10.342829] (-) TimerEvent: {}
+[10.443222] (-) TimerEvent: {}
+[10.543715] (-) TimerEvent: {}
+[10.603733] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842587.825793239] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[10.643948] (-) TimerEvent: {}
+[10.744376] (-) TimerEvent: {}
+[10.845019] (-) TimerEvent: {}
+[10.945687] (-) TimerEvent: {}
+[11.046086] (-) TimerEvent: {}
+[11.104987] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842588.326788155] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[11.146394] (-) TimerEvent: {}
+[11.246987] (-) TimerEvent: {}
+[11.347483] (-) TimerEvent: {}
+[11.448216] (-) TimerEvent: {}
+[11.548975] (-) TimerEvent: {}
+[11.607342] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842588.828839882] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[11.649125] (-) TimerEvent: {}
+[11.749637] (-) TimerEvent: {}
+[11.850046] (-) TimerEvent: {}
+[11.950522] (-) TimerEvent: {}
+[12.051139] (-) TimerEvent: {}
+[12.107564] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842589.329442411] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[12.151430] (-) TimerEvent: {}
+[12.252121] (-) TimerEvent: {}
+[12.352881] (-) TimerEvent: {}
+[12.453651] (-) TimerEvent: {}
+[12.554311] (-) TimerEvent: {}
+[12.610435] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842589.832225350] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[12.654612] (-) TimerEvent: {}
+[12.755366] (-) TimerEvent: {}
+[12.856186] (-) TimerEvent: {}
+[12.956886] (-) TimerEvent: {}
+[13.057470] (-) TimerEvent: {}
+[13.103068] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842590.324743583] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[13.157626] (-) TimerEvent: {}
+[13.258276] (-) TimerEvent: {}
+[13.359043] (-) TimerEvent: {}
+[13.459842] (-) TimerEvent: {}
+[13.560627] (-) TimerEvent: {}
+[13.605237] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842590.826900591] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[13.660899] (-) TimerEvent: {}
+[13.761471] (-) TimerEvent: {}
+[13.862242] (-) TimerEvent: {}
+[13.962971] (-) TimerEvent: {}
+[14.063575] (-) TimerEvent: {}
+[14.108181] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842591.329722671] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[14.163862] (-) TimerEvent: {}
+[14.264544] (-) TimerEvent: {}
+[14.365347] (-) TimerEvent: {}
+[14.466168] (-) TimerEvent: {}
+[14.566994] (-) TimerEvent: {}
+[14.600886] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842591.822629195] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[14.667295] (-) TimerEvent: {}
+[14.768008] (-) TimerEvent: {}
+[14.868820] (-) TimerEvent: {}
+[14.969628] (-) TimerEvent: {}
+[15.070312] (-) TimerEvent: {}
+[15.102742] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842592.324505398] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[15.170591] (-) TimerEvent: {}
+[15.271361] (-) TimerEvent: {}
+[15.372151] (-) TimerEvent: {}
+[15.472967] (-) TimerEvent: {}
+[15.573774] (-) TimerEvent: {}
+[15.605986] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842592.827538562] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[15.674065] (-) TimerEvent: {}
+[15.774690] (-) TimerEvent: {}
+[15.875278] (-) TimerEvent: {}
+[15.976095] (-) TimerEvent: {}
+[16.076877] (-) TimerEvent: {}
+[16.108714] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842593.330324693] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[16.177048] (-) TimerEvent: {}
+[16.277871] (-) TimerEvent: {}
+[16.378737] (-) TimerEvent: {}
+[16.479620] (-) TimerEvent: {}
+[16.580540] (-) TimerEvent: {}
+[16.602816] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842593.824301781] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[16.680810] (-) TimerEvent: {}
+[16.781427] (-) TimerEvent: {}
+[16.882120] (-) TimerEvent: {}
+[16.982916] (-) TimerEvent: {}
+[17.083688] (-) TimerEvent: {}
+[17.107358] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842594.329200308] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[17.183940] (-) TimerEvent: {}
+[17.284663] (-) TimerEvent: {}
+[17.385601] (-) TimerEvent: {}
+[17.486557] (-) TimerEvent: {}
+[17.587479] (-) TimerEvent: {}
+[17.601005] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842594.822945299] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[17.687884] (-) TimerEvent: {}
+[17.788668] (-) TimerEvent: {}
+[17.889120] (-) TimerEvent: {}
+[17.989902] (-) TimerEvent: {}
+[18.090675] (-) TimerEvent: {}
+[18.105087] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842595.326917116] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[18.190986] (-) TimerEvent: {}
+[18.291778] (-) TimerEvent: {}
+[18.392516] (-) TimerEvent: {}
+[18.492919] (-) TimerEvent: {}
+[18.593403] (-) TimerEvent: {}
+[18.606989] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842595.828905264] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[18.693470] (-) TimerEvent: {}
+[18.793946] (-) TimerEvent: {}
+[18.894741] (-) TimerEvent: {}
+[18.995505] (-) TimerEvent: {}
+[19.096186] (-) TimerEvent: {}
+[19.100860] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842596.323134673] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[19.196382] (-) TimerEvent: {}
+[19.296909] (-) TimerEvent: {}
+[19.397760] (-) TimerEvent: {}
+[19.498624] (-) TimerEvent: {}
+[19.599519] (-) TimerEvent: {}
+[19.602727] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842596.824179310] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[19.699822] (-) TimerEvent: {}
+[19.800972] (-) TimerEvent: {}
+[19.901743] (-) TimerEvent: {}
+[20.002322] (-) TimerEvent: {}
+[20.103086] (-) TimerEvent: {}
+[20.109246] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842597.331347129] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[20.203405] (-) TimerEvent: {}
+[20.304216] (-) TimerEvent: {}
+[20.405032] (-) TimerEvent: {}
+[20.505840] (-) TimerEvent: {}
+[20.606734] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842597.828259231] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[20.607223] (-) TimerEvent: {}
+[20.707760] (-) TimerEvent: {}
+[20.808334] (-) TimerEvent: {}
+[20.908856] (-) TimerEvent: {}
+[21.009619] (-) TimerEvent: {}
+[21.101545] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842598.323126991] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[21.109751] (-) TimerEvent: {}
+[21.210465] (-) TimerEvent: {}
+[21.311245] (-) TimerEvent: {}
+[21.411985] (-) TimerEvent: {}
+[21.512803] (-) TimerEvent: {}
+[21.608109] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842598.829665434] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[21.612985] (-) TimerEvent: {}
+[21.713717] (-) TimerEvent: {}
+[21.814380] (-) TimerEvent: {}
+[21.914724] (-) TimerEvent: {}
+[22.015109] (-) TimerEvent: {}
+[22.108767] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842599.330392008] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[22.115414] (-) TimerEvent: {}
+[22.216070] (-) TimerEvent: {}
+[22.316872] (-) TimerEvent: {}
+[22.417522] (-) TimerEvent: {}
+[22.518264] (-) TimerEvent: {}
+[22.601173] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842599.822778506] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[22.618493] (-) TimerEvent: {}
+[22.719097] (-) TimerEvent: {}
+[22.819681] (-) TimerEvent: {}
+[22.920240] (-) TimerEvent: {}
+[23.020961] (-) TimerEvent: {}
+[23.103861] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842600.325511383] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[23.121221] (-) TimerEvent: {}
+[23.221935] (-) TimerEvent: {}
+[23.322722] (-) TimerEvent: {}
+[23.423571] (-) TimerEvent: {}
+[23.524324] (-) TimerEvent: {}
+[23.606927] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842600.828549453] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[23.624460] (-) TimerEvent: {}
+[23.725051] (-) TimerEvent: {}
+[23.825818] (-) TimerEvent: {}
+[23.926592] (-) TimerEvent: {}
+[24.027369] (-) TimerEvent: {}
+[24.109999] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842601.331628998] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[24.127604] (-) TimerEvent: {}
+[24.228292] (-) TimerEvent: {}
+[24.329010] (-) TimerEvent: {}
+[24.429770] (-) TimerEvent: {}
+[24.530553] (-) TimerEvent: {}
+[24.602811] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842601.824474246] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[24.630812] (-) TimerEvent: {}
+[24.731314] (-) TimerEvent: {}
+[24.832108] (-) TimerEvent: {}
+[24.932917] (-) TimerEvent: {}
+[25.033643] (-) TimerEvent: {}
+[25.105869] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842602.327558093] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[25.133800] (-) TimerEvent: {}
+[25.235305] (-) TimerEvent: {}
+[25.336103] (-) TimerEvent: {}
+[25.436953] (-) TimerEvent: {}
+[25.537836] (-) TimerEvent: {}
+[25.608469] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842602.829879408] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[25.638158] (-) TimerEvent: {}
+[25.738849] (-) TimerEvent: {}
+[25.839507] (-) TimerEvent: {}
+[25.940301] (-) TimerEvent: {}
+[26.041211] (-) TimerEvent: {}
+[26.100700] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842603.322452620] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[26.141467] (-) TimerEvent: {}
+[26.242295] (-) TimerEvent: {}
+[26.343067] (-) TimerEvent: {}
+[26.443871] (-) TimerEvent: {}
+[26.544642] (-) TimerEvent: {}
+[26.604081] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842603.825746523] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[26.644907] (-) TimerEvent: {}
+[26.745644] (-) TimerEvent: {}
+[26.846449] (-) TimerEvent: {}
+[26.947184] (-) TimerEvent: {}
+[27.047870] (-) TimerEvent: {}
+[27.106404] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842604.328244803] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[27.148101] (-) TimerEvent: {}
+[27.248857] (-) TimerEvent: {}
+[27.349641] (-) TimerEvent: {}
+[27.450401] (-) TimerEvent: {}
+[27.551201] (-) TimerEvent: {}
+[27.609629] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842604.831351657] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[27.651510] (-) TimerEvent: {}
+[27.752242] (-) TimerEvent: {}
+[27.853020] (-) TimerEvent: {}
+[27.953794] (-) TimerEvent: {}
+[28.054575] (-) TimerEvent: {}
+[28.102727] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842605.324546450] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[28.154815] (-) TimerEvent: {}
+[28.255551] (-) TimerEvent: {}
+[28.356348] (-) TimerEvent: {}
+[28.457045] (-) TimerEvent: {}
+[28.557829] (-) TimerEvent: {}
+[28.604760] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842605.826923295] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[28.658025] (-) TimerEvent: {}
+[28.758606] (-) TimerEvent: {}
+[28.859356] (-) TimerEvent: {}
+[28.960099] (-) TimerEvent: {}
+[29.060889] (-) TimerEvent: {}
+[29.109256] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842606.331163313] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[29.161022] (-) TimerEvent: {}
+[29.261713] (-) TimerEvent: {}
+[29.362537] (-) TimerEvent: {}
+[29.463306] (-) TimerEvent: {}
+[29.564116] (-) TimerEvent: {}
+[29.605651] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842606.827248365] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[29.664358] (-) TimerEvent: {}
+[29.765002] (-) TimerEvent: {}
+[29.865787] (-) TimerEvent: {}
+[29.966591] (-) TimerEvent: {}
+[30.067266] (-) TimerEvent: {}
+[30.101366] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842607.323143049] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[30.167578] (-) TimerEvent: {}
+[30.268332] (-) TimerEvent: {}
+[30.369120] (-) TimerEvent: {}
+[30.469851] (-) TimerEvent: {}
+[30.570611] (-) TimerEvent: {}
+[30.607422] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842607.829000367] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[30.670900] (-) TimerEvent: {}
+[30.771604] (-) TimerEvent: {}
+[30.872418] (-) TimerEvent: {}
+[30.973227] (-) TimerEvent: {}
+[31.074017] (-) TimerEvent: {}
+[31.102301] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842608.323869401] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[31.174333] (-) TimerEvent: {}
+[31.275069] (-) TimerEvent: {}
+[31.375866] (-) TimerEvent: {}
+[31.476649] (-) TimerEvent: {}
+[31.577458] (-) TimerEvent: {}
+[31.605989] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842608.827546735] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[31.677761] (-) TimerEvent: {}
+[31.778481] (-) TimerEvent: {}
+[31.879095] (-) TimerEvent: {}
+[31.979657] (-) TimerEvent: {}
+[32.080010] (-) TimerEvent: {}
+[32.107931] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842609.329611995] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[32.180237] (-) TimerEvent: {}
+[32.280886] (-) TimerEvent: {}
+[32.381643] (-) TimerEvent: {}
+[32.482414] (-) TimerEvent: {}
+[32.583166] (-) TimerEvent: {}
+[32.603254] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842609.825029711] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[32.683468] (-) TimerEvent: {}
+[32.784231] (-) TimerEvent: {}
+[32.884958] (-) TimerEvent: {}
+[32.985772] (-) TimerEvent: {}
+[33.086535] (-) TimerEvent: {}
+[33.110055] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842610.331675764] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[33.186842] (-) TimerEvent: {}
+[33.287685] (-) TimerEvent: {}
+[33.388517] (-) TimerEvent: {}
+[33.489429] (-) TimerEvent: {}
+[33.590330] (-) TimerEvent: {}
+[33.606187] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842610.827941737] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[33.690634] (-) TimerEvent: {}
+[33.791504] (-) TimerEvent: {}
+[33.892393] (-) TimerEvent: {}
+[33.993154] (-) TimerEvent: {}
+[34.094053] (-) TimerEvent: {}
+[34.102398] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842611.324145917] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[34.194403] (-) TimerEvent: {}
+[34.295311] (-) TimerEvent: {}
+[34.396071] (-) TimerEvent: {}
+[34.496889] (-) TimerEvent: {}
+[34.597731] (-) TimerEvent: {}
+[34.608941] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842611.830579374] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[34.698070] (-) TimerEvent: {}
+[34.798936] (-) TimerEvent: {}
+[34.899844] (-) TimerEvent: {}
+[35.000642] (-) TimerEvent: {}
+[35.101422] (-) TimerEvent: {}
+[35.104332] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842612.326390083] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[35.201742] (-) TimerEvent: {}
+[35.302613] (-) TimerEvent: {}
+[35.403543] (-) TimerEvent: {}
+[35.504394] (-) TimerEvent: {}
+[35.601228] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842612.822773198] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[35.604700] (-) TimerEvent: {}
+[35.705514] (-) TimerEvent: {}
+[35.806349] (-) TimerEvent: {}
+[35.906979] (-) TimerEvent: {}
+[36.007984] (-) TimerEvent: {}
+[36.104215] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842613.325846492] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[36.108276] (-) TimerEvent: {}
+[36.208961] (-) TimerEvent: {}
+[36.309747] (-) TimerEvent: {}
+[36.410434] (-) TimerEvent: {}
+[36.511244] (-) TimerEvent: {}
+[36.606815] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842613.828892081] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[36.611372] (-) TimerEvent: {}
+[36.711757] (-) TimerEvent: {}
+[36.812455] (-) TimerEvent: {}
+[36.913041] (-) TimerEvent: {}
+[37.013716] (-) TimerEvent: {}
+[37.109195] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842614.330642794] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[37.113902] (-) TimerEvent: {}
+[37.214524] (-) TimerEvent: {}
+[37.315275] (-) TimerEvent: {}
+[37.416036] (-) TimerEvent: {}
+[37.516846] (-) TimerEvent: {}
+[37.600544] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842614.822389912] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[37.617031] (-) TimerEvent: {}
+[37.717729] (-) TimerEvent: {}
+[37.818490] (-) TimerEvent: {}
+[37.919181] (-) TimerEvent: {}
+[38.019942] (-) TimerEvent: {}
+[38.103394] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842615.324990328] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[38.120238] (-) TimerEvent: {}
+[38.220955] (-) TimerEvent: {}
+[38.321586] (-) TimerEvent: {}
+[38.422497] (-) TimerEvent: {}
+[38.523393] (-) TimerEvent: {}
+[38.606394] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842615.827897968] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[38.623596] (-) TimerEvent: {}
+[38.724230] (-) TimerEvent: {}
+[38.825018] (-) TimerEvent: {}
+[38.925828] (-) TimerEvent: {}
+[39.026612] (-) TimerEvent: {}
+[39.108890] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842616.330450965] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[39.126889] (-) TimerEvent: {}
+[39.227591] (-) TimerEvent: {}
+[39.328411] (-) TimerEvent: {}
+[39.429181] (-) TimerEvent: {}
+[39.530076] (-) TimerEvent: {}
+[39.600812] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842616.822248789] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[39.630440] (-) TimerEvent: {}
+[39.731292] (-) TimerEvent: {}
+[39.832173] (-) TimerEvent: {}
+[39.932982] (-) TimerEvent: {}
+[40.033878] (-) TimerEvent: {}
+[40.104058] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842617.325542181] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[40.134188] (-) TimerEvent: {}
+[40.235062] (-) TimerEvent: {}
+[40.335972] (-) TimerEvent: {}
+[40.436808] (-) TimerEvent: {}
+[40.537628] (-) TimerEvent: {}
+[40.606290] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842617.827825000] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[40.638017] (-) TimerEvent: {}
+[40.738906] (-) TimerEvent: {}
+[40.839802] (-) TimerEvent: {}
+[40.940688] (-) TimerEvent: {}
+[41.041577] (-) TimerEvent: {}
+[41.108304] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842618.329853538] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[41.141893] (-) TimerEvent: {}
+[41.242705] (-) TimerEvent: {}
+[41.343469] (-) TimerEvent: {}
+[41.444219] (-) TimerEvent: {}
+[41.545022] (-) TimerEvent: {}
+[41.600494] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842618.822055424] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[41.645418] (-) TimerEvent: {}
+[41.746292] (-) TimerEvent: {}
+[41.847183] (-) TimerEvent: {}
+[41.948014] (-) TimerEvent: {}
+[42.048785] (-) TimerEvent: {}
+[42.101278] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842619.323476551] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[42.148944] (-) TimerEvent: {}
+[42.249474] (-) TimerEvent: {}
+[42.350352] (-) TimerEvent: {}
+[42.451268] (-) TimerEvent: {}
+[42.552134] (-) TimerEvent: {}
+[42.603260] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842619.825489831] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[42.652393] (-) TimerEvent: {}
+[42.753024] (-) TimerEvent: {}
+[42.853953] (-) TimerEvent: {}
+[42.954799] (-) TimerEvent: {}
+[43.055531] (-) TimerEvent: {}
+[43.105564] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842620.327487082] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[43.155775] (-) TimerEvent: {}
+[43.256433] (-) TimerEvent: {}
+[43.357130] (-) TimerEvent: {}
+[43.457885] (-) TimerEvent: {}
+[43.558737] (-) TimerEvent: {}
+[43.608898] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842620.830289407] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[43.659053] (-) TimerEvent: {}
+[43.759885] (-) TimerEvent: {}
+[43.860801] (-) TimerEvent: {}
+[43.961566] (-) TimerEvent: {}
+[44.062429] (-) TimerEvent: {}
+[44.101414] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842621.322781859] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[44.162682] (-) TimerEvent: {}
+[44.263296] (-) TimerEvent: {}
+[44.364081] (-) TimerEvent: {}
+[44.464783] (-) TimerEvent: {}
+[44.565372] (-) TimerEvent: {}
+[44.603640] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842621.825362285] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[44.665525] (-) TimerEvent: {}
+[44.766189] (-) TimerEvent: {}
+[44.866959] (-) TimerEvent: {}
+[44.967787] (-) TimerEvent: {}
+[45.068594] (-) TimerEvent: {}
+[45.105586] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842622.327323249] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[45.168896] (-) TimerEvent: {}
+[45.269602] (-) TimerEvent: {}
+[45.370453] (-) TimerEvent: {}
+[45.471251] (-) TimerEvent: {}
+[45.572046] (-) TimerEvent: {}
+[45.608082] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842622.829616881] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[45.672290] (-) TimerEvent: {}
+[45.772948] (-) TimerEvent: {}
+[45.873591] (-) TimerEvent: {}
+[45.974390] (-) TimerEvent: {}
+[46.075195] (-) TimerEvent: {}
+[46.100093] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842623.321930394] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[46.175450] (-) TimerEvent: {}
+[46.276078] (-) TimerEvent: {}
+[46.376856] (-) TimerEvent: {}
+[46.477677] (-) TimerEvent: {}
+[46.578456] (-) TimerEvent: {}
+[46.603003] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842623.824526381] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[46.678781] (-) TimerEvent: {}
+[46.779547] (-) TimerEvent: {}
+[46.880365] (-) TimerEvent: {}
+[46.981020] (-) TimerEvent: {}
+[47.081606] (-) TimerEvent: {}
+[47.104762] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842624.326572909] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[47.181900] (-) TimerEvent: {}
+[47.282678] (-) TimerEvent: {}
+[47.383401] (-) TimerEvent: {}
+[47.484043] (-) TimerEvent: {}
+[47.584805] (-) TimerEvent: {}
+[47.606493] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842624.828125311] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[47.685120] (-) TimerEvent: {}
+[47.785883] (-) TimerEvent: {}
+[47.886533] (-) TimerEvent: {}
+[47.987317] (-) TimerEvent: {}
+[48.088136] (-) TimerEvent: {}
+[48.109572] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842625.331317025] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[48.188401] (-) TimerEvent: {}
+[48.289193] (-) TimerEvent: {}
+[48.389969] (-) TimerEvent: {}
+[48.490761] (-) TimerEvent: {}
+[48.591543] (-) TimerEvent: {}
+[48.601795] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842625.823645371] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[48.691804] (-) TimerEvent: {}
+[48.792577] (-) TimerEvent: {}
+[48.893401] (-) TimerEvent: {}
+[48.994028] (-) TimerEvent: {}
+[49.094533] (-) TimerEvent: {}
+[49.104488] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842626.326319248] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[49.194839] (-) TimerEvent: {}
+[49.295590] (-) TimerEvent: {}
+[49.396352] (-) TimerEvent: {}
+[49.497157] (-) TimerEvent: {}
+[49.597824] (-) TimerEvent: {}
+[49.606527] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842626.828528210] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[49.698164] (-) TimerEvent: {}
+[49.798972] (-) TimerEvent: {}
+[49.899842] (-) TimerEvent: {}
+[50.000585] (-) TimerEvent: {}
+[50.101392] (-) TimerEvent: {}
+[50.102031] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842627.323453271] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[50.201566] (-) TimerEvent: {}
+[50.302278] (-) TimerEvent: {}
+[50.403017] (-) TimerEvent: {}
+[50.503597] (-) TimerEvent: {}
+[50.604204] (-) TimerEvent: {}
+[50.607043] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842627.828510809] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[50.704437] (-) TimerEvent: {}
+[50.804918] (-) TimerEvent: {}
+[50.905363] (-) TimerEvent: {}
+[51.005929] (-) TimerEvent: {}
+[51.100564] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842628.321886332] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[51.106211] (-) TimerEvent: {}
+[51.206861] (-) TimerEvent: {}
+[51.307692] (-) TimerEvent: {}
+[51.408450] (-) TimerEvent: {}
+[51.509112] (-) TimerEvent: {}
+[51.606196] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842628.827567027] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[51.609225] (-) TimerEvent: {}
+[51.709829] (-) TimerEvent: {}
+[51.810563] (-) TimerEvent: {}
+[51.911282] (-) TimerEvent: {}
+[52.012064] (-) TimerEvent: {}
+[52.100101] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842629.322383752] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[52.112157] (-) TimerEvent: {}
+[52.212518] (-) TimerEvent: {}
+[52.312964] (-) TimerEvent: {}
+[52.413698] (-) TimerEvent: {}
+[52.514381] (-) TimerEvent: {}
+[52.605084] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842629.826494816] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[52.614629] (-) TimerEvent: {}
+[52.715330] (-) TimerEvent: {}
+[52.816136] (-) TimerEvent: {}
+[52.916989] (-) TimerEvent: {}
+[53.017598] (-) TimerEvent: {}
+[53.108232] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842630.330405790] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[53.117842] (-) TimerEvent: {}
+[53.218306] (-) TimerEvent: {}
+[53.319108] (-) TimerEvent: {}
+[53.419952] (-) TimerEvent: {}
+[53.520819] (-) TimerEvent: {}
+[53.603676] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842630.825267490] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[53.621037] (-) TimerEvent: {}
+[53.721541] (-) TimerEvent: {}
+[53.822147] (-) TimerEvent: {}
+[53.922970] (-) TimerEvent: {}
+[54.023803] (-) TimerEvent: {}
+[54.110300] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842631.331656409] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[54.124039] (-) TimerEvent: {}
+[54.224788] (-) TimerEvent: {}
+[54.325593] (-) TimerEvent: {}
+[54.426386] (-) TimerEvent: {}
+[54.527186] (-) TimerEvent: {}
+[54.606209] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842631.827756394] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[54.627467] (-) TimerEvent: {}
+[54.728177] (-) TimerEvent: {}
+[54.829009] (-) TimerEvent: {}
+[54.929692] (-) TimerEvent: {}
+[55.030398] (-) TimerEvent: {}
+[55.102075] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842632.323541680] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[55.130690] (-) TimerEvent: {}
+[55.231399] (-) TimerEvent: {}
+[55.332115] (-) TimerEvent: {}
+[55.432866] (-) TimerEvent: {}
+[55.533281] (-) TimerEvent: {}
+[55.608456] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842632.829784521] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[55.633523] (-) TimerEvent: {}
+[55.734249] (-) TimerEvent: {}
+[55.835012] (-) TimerEvent: {}
+[55.935829] (-) TimerEvent: {}
+[56.036781] (-) TimerEvent: {}
+[56.104801] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842633.326291752] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[56.137090] (-) TimerEvent: {}
+[56.237968] (-) TimerEvent: {}
+[56.338702] (-) TimerEvent: {}
+[56.439332] (-) TimerEvent: {}
+[56.540045] (-) TimerEvent: {}
+[56.609747] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842633.831251117] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[56.640398] (-) TimerEvent: {}
+[56.741231] (-) TimerEvent: {}
+[56.842220] (-) TimerEvent: {}
+[56.943117] (-) TimerEvent: {}
+[57.044021] (-) TimerEvent: {}
+[57.104755] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842634.326547034] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[57.144273] (-) TimerEvent: {}
+[57.245153] (-) TimerEvent: {}
+[57.346045] (-) TimerEvent: {}
+[57.446923] (-) TimerEvent: {}
+[57.547850] (-) TimerEvent: {}
+[57.601459] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842634.822908740] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[57.648093] (-) TimerEvent: {}
+[57.748904] (-) TimerEvent: {}
+[57.849744] (-) TimerEvent: {}
+[57.950567] (-) TimerEvent: {}
+[58.051390] (-) TimerEvent: {}
+[58.107980] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842635.329718603] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[58.151672] (-) TimerEvent: {}
+[58.252385] (-) TimerEvent: {}
+[58.353061] (-) TimerEvent: {}
+[58.453780] (-) TimerEvent: {}
+[58.554542] (-) TimerEvent: {}
+[58.604706] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842635.826520620] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[58.654818] (-) TimerEvent: {}
+[58.755569] (-) TimerEvent: {}
+[58.856359] (-) TimerEvent: {}
+[58.957165] (-) TimerEvent: {}
+[59.057924] (-) TimerEvent: {}
+[59.100330] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842636.322265956] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[59.158062] (-) TimerEvent: {}
+[59.258724] (-) TimerEvent: {}
+[59.359462] (-) TimerEvent: {}
+[59.460151] (-) TimerEvent: {}
+[59.560816] (-) TimerEvent: {}
+[59.606617] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: [INFO] [1722842636.828123131] [minimal_publisher]: Publishing: 'Hello, ROS 2!'\n"}
+[59.660983] (-) TimerEvent: {}
+[59.761717] (-) TimerEvent: {}
+[59.862539] (-) TimerEvent: {}
+[59.963354] (-) TimerEvent: {}
+[60.064049] (-) TimerEvent: {}
+[60.072960] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1/1 Test #1: examples_rclcpp_minimal_publisher_test_simple_publisher ...***Timeout  60.01 sec\n'}
+[60.073123] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[60.073159] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'0% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 1\n'}
+[60.073194] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[60.073220] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Label Time Summary:\n'}
+[60.073247] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'gtest    =  60.01 sec*proc (1 test)\n'}
+[60.073274] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[60.073300] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Total Test time (real) =  60.02 sec\n'}
+[60.073327] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[60.073353] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[60.073380] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\t\x1b[0;31m  1 - examples_rclcpp_minimal_publisher_test_simple_publisher (Timeout)\x1b[0;0m\n'}
+[60.095463] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'Errors while running CTest\n'}
+[60.095650] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'Output from these tests are in: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/Testing/Temporary/LastTest.log\n'}
+[60.095702] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[60.097028] (examples_rclcpp_minimal_publisher) CommandEnded: {'returncode': 8}
+[60.097471] (examples_rclcpp_minimal_publisher) TestFailure: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[60.097500] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 0}
+[60.097961] (-) EventReactorShutdown: {}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240805-0825-Experimental"
+	Name="heshamwakeb"
+	Generator="ctest-3.27.0"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="heshamwakeb"
+	OSRelease="5.15.0-117-generic"
+	OSVersion="#127~20.04.1-Ubuntu SMP Thu Jul 11 15:36:12 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15672"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2157.07"
+	>
+	<Testing>
+		<StartDateTime>Aug 05 11:25 EEST</StartDateTime>
+		<StartTestTime>1722846340</StartTestTime>
+		<TestList>
+			<Test>./minimal_publisher_test</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>minimal_publisher_test</Name>
+			<Path>.</Path>
+			<FullName>./minimal_publisher_test</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0633446</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/minimal_publisher':
+ - /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test --gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestSimplePublisher
+[ RUN      ] TestSimplePublisher.TestPublishMessage
+here
+[INFO] [1722846340.396325844] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:38: Failure
+Expected equality of these values:
+  received_message_
+    Which is: "Hello, ROS 2!"
+  "Hello, ROS 1!"
+[  FAILED  ] TestSimplePublisher.TestPublishMessage (20 ms)
+[----------] 1 test from TestSimplePublisher (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (20 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestSimplePublisher.TestPublishMessage
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+-- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Aug 05 11:25 EEST</EndDateTime>
+		<EndTestTime>1722846340</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

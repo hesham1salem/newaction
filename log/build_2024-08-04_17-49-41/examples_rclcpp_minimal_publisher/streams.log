@@ -1,0 +1,49 @@
+[0.039s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.061s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.064s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.064s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.064s]   the cmake_policy command to set the policy and suppress this warning.
+[0.064s] 
+[0.064s] Call Stack (most recent call first):
+[0.064s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.064s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.064s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.064s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.064s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.064s]   CMakeLists.txt:14 (find_package)
+[0.064s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.064s] [0m
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.254s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.662s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.022s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.023s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.025s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.025s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.025s]   CMake.
+[1.025s] 
+[1.025s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.025s]   CMake that the project does not need compatibility with older versions.
+[1.025s] 
+[1.025s] [0m
+[1.070s] -- Configuring done (1.0s)
+[1.090s] -- Generating done (0.0s)
+[1.092s] -- Build files have been written to: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[1.113s] [ 22%] Built target gtest_main
+[1.113s] [ 44%] Built target gtest
+[1.116s] [ 66%] Built target publisher_member_function
+[1.131s] [ 88%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/member_function.cpp.o[0m
+[1.131s] [ 88%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[4.225s] [100%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m
+[4.385s] /usr/bin/ld: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o: in function `void __gnu_cxx::new_allocator<MinimalPublisher>::construct<MinimalPublisher>(MinimalPublisher*)':
+[4.385s] test_simple_publisher.cpp:(.text._ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `MinimalPublisher::MinimalPublisher()'
+[4.385s] collect2: error: ld returned 1 exit status
+[4.385s] make[2]: *** [CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/build.make:162: examples_rclcpp_minimal_publisher_test_simple_publisher] Error 1
+[4.386s] make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/all] Error 2
+[4.386s] make: *** [Makefile:146: all] Error 2
+[4.388s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20

@@ -1,0 +1,58 @@
+UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+   Site: heshamwakeb
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20240805-0825 - Experimental
+UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Test project /home/hesham/Pictures/newaction/build/minimal_publisher
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: minimal_publisher_test
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"
+1: Working Directory: /home/hesham/Pictures/newaction/build/minimal_publisher
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/minimal_publisher':
+1:  - /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test --gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml
+1: [==========] Running 1 test from 1 test case.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from TestSimplePublisher
+1: [ RUN      ] TestSimplePublisher.TestPublishMessage
+1: here
+1: [INFO] [1722846340.396325844] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+1: /home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:38: Failure
+1: Expected equality of these values:
+1:   received_message_
+1:     Which is: "Hello, ROS 2!"
+1:   "Hello, ROS 1!"
+1: [  FAILED  ] TestSimplePublisher.TestPublishMessage (20 ms)
+1: [----------] 1 test from TestSimplePublisher (20 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 1 test from 1 test case ran. (20 ms total)
+1: [  PASSED  ] 0 tests.
+1: [  FAILED  ] 1 test, listed below:
+1: [  FAILED  ] TestSimplePublisher.TestPublishMessage
+1: 
+1:  1 FAILED TEST
+1: -- run_test.py: return code 1
+1: -- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+1: -- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+1/1 Test #1: minimal_publisher_test ...........***Failed    0.06 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =   0.06 sec*proc (1 test)
+
+Total Test time (real) =   0.06 sec
+
+The following tests FAILED:
+	[0;31m  1 - minimal_publisher_test (Failed)[0;0m

@@ -1,0 +1,27 @@
+[0.039s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.061s] [ 22%] Built target gtest_main
+[0.061s] [ 44%] Built target gtest
+[0.066s] [ 66%] Built target publisher_member_function
+[0.077s] [ 77%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[3.024s] [ 88%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m
+[3.209s] [100%] Built target examples_rclcpp_minimal_publisher_test_simple_publisher
+[3.214s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[3.234s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[3.237s] -- Install configuration: ""
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[3.238s] -- Installing: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[3.238s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[3.239s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[3.239s] -- Up-to-date: /home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[3.240s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher

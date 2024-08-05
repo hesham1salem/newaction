@@ -1,0 +1,63 @@
+[0.059s] Invoking command in '/home/hesham/Pictures/newaction/build/minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/minimal_publisher
+[0.102s] -- The C compiler identification is GNU 8.4.0
+[0.157s] -- The CXX compiler identification is GNU 9.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.370s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.370s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.370s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.370s]   the cmake_policy command to set the policy and suppress this warning.
+[0.370s] 
+[0.371s] Call Stack (most recent call first):
+[0.371s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.371s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.371s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.371s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.371s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.371s]   CMakeLists.txt:5 (find_package)
+[0.371s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.371s] [0m
+[0.386s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.387s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.590s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.682s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.814s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.155s] -- Looking for pthread_create in pthreads
+[1.200s] -- Looking for pthread_create in pthreads - not found
+[1.200s] -- Looking for pthread_create in pthread
+[1.248s] -- Looking for pthread_create in pthread - found
+[1.251s] -- Found Threads: TRUE  
+[1.622s] [31mCMake Error at CMakeLists.txt:11 (target_include_directories):
+[1.622s]   target_include_directories called with invalid arguments
+[1.622s] 
+[1.622s] [0m
+[1.624s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.627s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.629s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.629s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.629s]   CMake.
+[1.629s] 
+[1.629s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.629s]   CMake that the project does not need compatibility with older versions.
+[1.629s] 
+[1.629s] [0m
+[1.631s] -- Check if compiler accepts -pthread
+[1.678s] -- Check if compiler accepts -pthread - yes
+[1.719s] -- Configuring incomplete, errors occurred!
+[1.726s] Invoked command in '/home/hesham/Pictures/newaction/build/minimal_publisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/minimal_publisher

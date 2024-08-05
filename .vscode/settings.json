@@ -65,6 +65,7 @@
   "files.associations": {
     "*.urdf": "xml",
     "chrono": "cpp",
-    "functional": "cpp"
+    "functional": "cpp",
+    "thread": "cpp"
   }
 }

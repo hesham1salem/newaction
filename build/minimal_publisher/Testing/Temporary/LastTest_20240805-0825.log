@@ -1,0 +1,47 @@
+Start testing: Aug 05 11:25 EEST
+----------------------------------------------------------
+1/1 Testing: minimal_publisher_test
+1/1 Test: minimal_publisher_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"
+Directory: /home/hesham/Pictures/newaction/build/minimal_publisher
+"minimal_publisher_test" start time: Aug 05 11:25 EEST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/minimal_publisher':
+ - /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test --gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestSimplePublisher
+[ RUN      ] TestSimplePublisher.TestPublishMessage
+here
+[INFO] [1722846340.396325844] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+/home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:38: Failure
+Expected equality of these values:
+  received_message_
+    Which is: "Hello, ROS 2!"
+  "Hello, ROS 1!"
+[  FAILED  ] TestSimplePublisher.TestPublishMessage (20 ms)
+[----------] 1 test from TestSimplePublisher (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (20 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestSimplePublisher.TestPublishMessage
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+-- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"minimal_publisher_test" end time: Aug 05 11:25 EEST
+"minimal_publisher_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 05 11:25 EEST
+
+gtest =   0.06 sec*proc
+

@@ -29,19 +29,15 @@ protected:
 
 TEST_F(TestSimplePublisher, TestPublishMessage)
 {
-    // auto node = std::make_shared<MinimalPublisher>();
+    auto node = std::make_shared<MinimalPublisher>();
 
-    // // Spin for a short time to allow the message to be published and received
-    // rclcpp::spin_some(node);
-    // rclcpp::spin_some(node_);
-
-    // EXPECT_TRUE(received_);
-    //EXPECT_EQ(received_message_, "Hello, ROS 2!");
-    EXPECT_EQ("Hello, ROS 2!", "Hello, ROS 2!");
-    EXPECT_EQ("different", "Hello, ROS 2!");
-
-
+    // Spin for a short time to allow the message to be published and received
+        rclcpp::spin_some(node);
+        rclcpp::spin_some(node_);
+    EXPECT_TRUE(received_);
+    EXPECT_EQ(received_message_, "Hello, ROS 1!");
 }
+
 
 int main(int argc, char **argv)
 {

@@ -1,0 +1,63 @@
+[0.053s] Invoking command in '/home/hesham/Pictures/newaction/build/minimal_publisher': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.055s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.055s] Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.055s]    Site: heshamwakeb
+[0.055s]    Build name: (empty)
+[0.055s]  Add coverage exclude regular expressions.
+[0.055s] Create new tag: 20240805-0824 - Experimental
+[0.056s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.056s] Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+[0.056s] Test project /home/hesham/Pictures/newaction/build/minimal_publisher
+[0.056s] Constructing a list of tests
+[0.056s] Done constructing a list of tests
+[0.056s] Updating test list for fixtures
+[0.056s] Added 0 tests to meet fixture requirements
+[0.056s] Checking test dependency graph...
+[0.056s] Checking test dependency graph end
+[0.056s] test 1
+[0.056s]     Start 1: minimal_publisher_test
+[0.056s] 
+[0.056s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"
+[0.056s] 1: Working Directory: /home/hesham/Pictures/newaction/build/minimal_publisher
+[0.056s] 1: Test timeout computed to be: 60
+[0.087s] 1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/minimal_publisher':
+[0.087s] 1:  - /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test --gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml
+[0.089s] 1: [==========] Running 1 test from 1 test case.
+[0.089s] 1: [----------] Global test environment set-up.
+[0.089s] 1: [----------] 1 test from TestSimplePublisher
+[0.089s] 1: [ RUN      ] TestSimplePublisher.TestPublishMessage
+[0.107s] 1: here
+[0.107s] 1: [INFO] [1722846240.380571448] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[0.107s] 1: /home/hesham/Pictures/newaction/src/minimal_publisher/test/test_simple_publisher.cpp:38: Failure
+[0.107s] 1: Expected equality of these values:
+[0.107s] 1:   received_message_
+[0.107s] 1:     Which is: "Hello, ROS 2!"
+[0.107s] 1:   "Hello, ROS 1!"
+[0.109s] 1: [  FAILED  ] TestSimplePublisher.TestPublishMessage (19 ms)
+[0.109s] 1: [----------] 1 test from TestSimplePublisher (19 ms total)
+[0.109s] 1: 
+[0.109s] 1: [----------] Global test environment tear-down
+[0.109s] 1: [==========] 1 test from 1 test case ran. (19 ms total)
+[0.109s] 1: [  PASSED  ] 0 tests.
+[0.109s] 1: [  FAILED  ] 1 test, listed below:
+[0.109s] 1: [  FAILED  ] TestSimplePublisher.TestPublishMessage
+[0.109s] 1: 
+[0.109s] 1:  1 FAILED TEST
+[0.110s] 1: -- run_test.py: return code 1
+[0.110s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+[0.110s] 1: -- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml'
+[0.116s] 1/1 Test #1: minimal_publisher_test ...........***Failed    0.06 sec
+[0.116s] 
+[0.116s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[0.116s] 
+[0.116s] Label Time Summary:
+[0.116s] gtest    =   0.06 sec*proc (1 test)
+[0.116s] 
+[0.116s] Total Test time (real) =   0.06 sec
+[0.116s] 
+[0.116s] The following tests FAILED:
+[0.116s] 	[0;31m  1 - minimal_publisher_test (Failed)[0;0m
+[0.145s] Errors while running CTest
+[0.145s] Output from these tests are in: /home/hesham/Pictures/newaction/build/minimal_publisher/Testing/Temporary/LastTest.log
+[0.145s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.146s] Invoked command in '/home/hesham/Pictures/newaction/build/minimal_publisher' returned '8': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

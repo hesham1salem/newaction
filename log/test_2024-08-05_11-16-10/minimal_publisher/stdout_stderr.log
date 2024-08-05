@@ -1,0 +1,35 @@
+UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+   Site: heshamwakeb
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20240805-0816 - Experimental
+UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Parse Config file:/home/hesham/Pictures/newaction/build/minimal_publisher/CTestConfiguration.ini
+Test project /home/hesham/Pictures/newaction/build/minimal_publisher
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: minimal_publisher_test
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml" "--package-name" "minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/minimal_publisher/ament_cmake_gtest/minimal_publisher_test.txt" "--command" "/home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/minimal_publisher/test_results/minimal_publisher/minimal_publisher_test.gtest.xml"
+1: Working Directory: /home/hesham/Pictures/newaction/build/minimal_publisher
+1/1 Test #1: minimal_publisher_test ...........***Not Run   0.00 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =   0.00 sec*proc (1 test)
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	[0;33m  1 - minimal_publisher_test (Not Run)[0;0m
+Unable to find required file: /home/hesham/Pictures/newaction/build/minimal_publisher/minimal_publisher_test
+Errors while running CTest
+Output from these tests are in: /home/hesham/Pictures/newaction/build/minimal_publisher/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

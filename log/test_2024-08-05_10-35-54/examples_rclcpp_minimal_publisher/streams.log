@@ -1,0 +1,49 @@
+[0.054s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.056s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.057s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.057s]    Site: heshamwakeb
+[0.057s]    Build name: (empty)
+[0.057s]  Add coverage exclude regular expressions.
+[0.057s] Create new tag: 20240805-0735 - Experimental
+[0.057s] UpdateCTestConfiguration  from :/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.057s] Parse Config file:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.057s] Test project /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.057s] Constructing a list of tests
+[0.057s] Done constructing a list of tests
+[0.057s] Updating test list for fixtures
+[0.057s] Added 0 tests to meet fixture requirements
+[0.057s] Checking test dependency graph...
+[0.057s] Checking test dependency graph end
+[0.057s] test 1
+[0.057s]     Start 1: examples_rclcpp_minimal_publisher_test_simple_publisher
+[0.057s] 
+[0.057s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/ament_cmake_gtest/examples_rclcpp_minimal_publisher_test_simple_publisher.txt" "--command" "/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher" "--gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml"
+[0.057s] 1: Working Directory: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[0.057s] 1: Test timeout computed to be: 60
+[0.089s] 1: -- run_test.py: invoking following command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher':
+[0.089s] 1:  - /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher --gtest_output=xml:/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml
+[0.092s] 1: [==========] Running 1 test from 1 test case.
+[0.092s] 1: [----------] Global test environment set-up.
+[0.092s] 1: [----------] 1 test from TestSimplePublisher
+[0.092s] 1: [ RUN      ] TestSimplePublisher.TestPublishMessage
+[0.100s] 1: here
+[0.611s] 1: [INFO] [1722843355.283797624] [minimal_publisher]: Publishing: 'Hello, ROS 2!'
+[0.631s] 1: finished 
+[0.635s] 1: [       OK ] TestSimplePublisher.TestPublishMessage (543 ms)
+[0.635s] 1: [----------] 1 test from TestSimplePublisher (543 ms total)
+[0.635s] 1: 
+[0.635s] 1: [----------] Global test environment tear-down
+[0.635s] 1: [==========] 1 test from 1 test case ran. (543 ms total)
+[0.635s] 1: [  PASSED  ] 1 test.
+[0.636s] 1: -- run_test.py: return code 0
+[0.636s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+[0.643s] 1: -- run_test.py: verify result file '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/examples_rclcpp_minimal_publisher_test_simple_publisher.gtest.xml'
+[0.649s] 1/1 Test #1: examples_rclcpp_minimal_publisher_test_simple_publisher ...   Passed    0.59 sec
+[0.649s] 
+[0.649s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.649s] 
+[0.649s] Label Time Summary:
+[0.649s] gtest    =   0.59 sec*proc (1 test)
+[0.649s] 
+[0.649s] Total Test time (real) =   0.59 sec
+[0.673s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

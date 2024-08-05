@@ -1,0 +1,81 @@
+[0.038s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[0.093s] -- The C compiler identification is GNU 8.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.355s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.355s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.355s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.355s]   the cmake_policy command to set the policy and suppress this warning.
+[0.355s] 
+[0.355s] Call Stack (most recent call first):
+[0.355s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.355s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.355s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.355s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.355s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.355s]   CMakeLists.txt:14 (find_package)
+[0.355s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.355s] [0m
+[0.372s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.372s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.574s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.658s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.748s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.795s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.116s] -- Looking for pthread_create in pthreads
+[1.156s] -- Looking for pthread_create in pthreads - not found
+[1.156s] -- Looking for pthread_create in pthread
+[1.202s] -- Looking for pthread_create in pthread - found
+[1.204s] -- Found Threads: TRUE  
+[1.559s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.562s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.563s] [0mCMake Deprecation Warning at /opt/ros/foxy/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[1.563s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.563s]   CMake.
+[1.563s] 
+[1.563s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.563s]   CMake that the project does not need compatibility with older versions.
+[1.563s] 
+[1.563s] [0m
+[1.565s] -- Check if compiler accepts -pthread
+[1.612s] -- Check if compiler accepts -pthread - yes
+[1.654s] -- Configuring done (1.6s)
+[1.674s] -- Generating done (0.0s)
+[1.676s] -- Build files have been written to: /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher
+[1.682s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/hesham/Pictures/newaction/src/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hesham/Pictures/newaction/install/examples_rclcpp_minimal_publisher
+[1.684s] Invoking command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[1.704s] [ 11%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/main.cpp.o[0m
+[1.704s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.704s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.317s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.365s] [ 44%] Built target gtest_main
+[3.503s] [ 55%] [32m[1mLinking CXX executable publisher_member_function[0m
+[3.596s] [ 55%] Built target publisher_member_function
+[3.761s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.820s] [ 66%] Built target gtest
+[3.828s] [ 77%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o[0m
+[3.829s] [ 88%] [32mBuilding CXX object CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/member_function.cpp.o[0m
+[6.831s] [100%] [32m[1mLinking CXX executable examples_rclcpp_minimal_publisher_test_simple_publisher[0m
+[6.992s] /usr/bin/ld: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/test/test_simple_publisher.cpp.o: in function `void __gnu_cxx::new_allocator<MinimalPublisher>::construct<MinimalPublisher>(MinimalPublisher*)':
+[6.992s] test_simple_publisher.cpp:(.text._ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI16MinimalPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `MinimalPublisher::MinimalPublisher()'
+[6.992s] collect2: error: ld returned 1 exit status
+[6.993s] make[2]: *** [CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/build.make:162: examples_rclcpp_minimal_publisher_test_simple_publisher] Error 1
+[6.993s] make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/examples_rclcpp_minimal_publisher_test_simple_publisher.dir/all] Error 2
+[6.993s] make: *** [Makefile:146: all] Error 2
+[6.996s] Invoked command in '/home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/hesham/Pictures/newaction/build/examples_rclcpp_minimal_publisher -- -j20 -l20
