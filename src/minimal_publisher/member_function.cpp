@@ -29,7 +29,7 @@ using namespace std::chrono_literals;
     std::cout<<"here"<<std::endl;
     publisher_ = this->create_publisher<std_msgs::msg::String>("chatter", 10);
     auto message = std_msgs::msg::String();
-    message.data = "Hello, ROS 3!";
+    message.data = "Hello, ROS 4!";
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
     publisher_->publish(message);
   }
